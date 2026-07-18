@@ -2,6 +2,10 @@
 
 A working, India-first credit-card recommendation prototype focused on transparent ranking rather than lead capture.
 
+## Live app
+
+**https://vishnuvu.github.io/cardwise-india/**
+
 ## Run locally
 
 ```bash

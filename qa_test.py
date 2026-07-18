@@ -1,15 +1,17 @@
+import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 OUT = Path(__file__).parent / "artifacts"
 OUT.mkdir(exist_ok=True)
+BASE_URL = os.environ.get("BASE_URL", "http://127.0.0.1:4173")
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
     page = browser.new_page(viewport={"width": 390, "height": 844}, device_scale_factor=1)
     errors = []
     page.on("pageerror", lambda exc: errors.append(str(exc)))
-    page.goto("http://127.0.0.1:4173", wait_until="networkidle")
+    page.goto(BASE_URL, wait_until="networkidle")
 
     assert page.title().startswith("CardWise")
     assert page.locator(".credit-card").count() == 7
