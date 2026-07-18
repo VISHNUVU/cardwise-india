@@ -1,0 +1,547 @@
+{
+  "dataset": {
+    "name": "CardWise provider-profile enrichment",
+    "jurisdiction": "India",
+    "observed_at": "2026-07-18",
+    "scope": "Educational provider-level profiles. Product economics remain card-version specific.",
+    "publication_rule": "Do not use provider-level summaries as substitutes for a card product page, MITC, schedule of charges, reward terms, or offer terms. Unknowns remain unknown."
+  },
+  "providers": [
+    {
+      "id": "american-express-india",
+      "display_name": "American Express India",
+      "entity_model": {
+        "role": "issuer_and_card_network",
+        "relationship_note": "American Express issues the India cards represented here and operates the American Express acceptance network and Membership Rewards programme.",
+        "co_brand_or_partner_warning": null
+      },
+      "overview": {
+        "headline": "A compact, points-led range spanning entry-level rewards to premium travel and lifestyle cards.",
+        "educational_summary": "The official India credit-card catalogue observed on 2026-07-18 displayed four consumer credit cards: SmartEarn, Membership Rewards Credit Card, Platinum Reserve, and Platinum Travel. The proposition is centred on Membership Rewards, Amex Offers, service features and, on premium products, travel or concierge benefits.",
+        "catalogue_products_observed": [
+          "American Express SmartEarn Credit Card",
+          "American Express Membership Rewards Credit Card",
+          "American Express Platinum Reserve Credit Card",
+          "American Express Platinum Travel Credit Card"
+        ]
+      },
+      "cost": {
+        "summary": "The four displayed credit cards ranged from INR 495 to INR 10,000 before applicable taxes for the first year. Renewal pricing is product-specific.",
+        "examples": [
+          {
+            "product": "SmartEarn",
+            "first_year_fee_inr": 495,
+            "renewal_fee_inr": 495,
+            "taxes_extra": true
+          },
+          {
+            "product": "Membership Rewards Credit Card",
+            "first_year_fee_inr": 1000,
+            "renewal_fee_inr": 4500,
+            "taxes_extra": true
+          },
+          {
+            "product": "Platinum Travel",
+            "first_year_fee_inr": 5000,
+            "renewal_fee_inr": 5000,
+            "taxes_extra": true
+          },
+          {
+            "product": "Platinum Reserve",
+            "first_year_fee_inr": 10000,
+            "renewal_fee_inr": 10000,
+            "taxes_extra": true
+          }
+        ],
+        "unknown_or_card_specific": [
+          "APR/finance charges",
+          "late fee",
+          "cash advance fee",
+          "foreign-currency markup",
+          "fee-waiver conditions except where the card page explicitly states them"
+        ]
+      },
+      "rewards": {
+        "summary": "Eligible cards earn Membership Rewards points, with product-specific base earn, accelerators, milestones, caps and exclusions. The issuer states that its rewards catalogue has 500+ redemption options.",
+        "worked_product_example": {
+          "product": "SmartEarn",
+          "base_rule": "The product footnote illustrates 1 Membership Rewards point per INR 50 of eligible spend.",
+          "accelerators": "10X or 5X at named participating merchants, subject to separate monthly caps and a merchant list that may change.",
+          "caps": [
+            "10X: 500 points per month jointly for Flipkart, Uber, BookMyShow and other merchants in that group",
+            "10X: 500 points per month jointly for EaseMyTrip and Zomato",
+            "5X: 250 points per month for Amazon"
+          ],
+          "milestones": "INR 500 voucher at each of INR 1.20 lakh, INR 1.80 lakh and INR 2.40 lakh annual-spend milestones, under the linked benefit terms.",
+          "valuation_status": "No rupee-per-point value asserted; redemption value varies by option."
+        }
+      },
+      "benefits": [
+        "Amex Offers across travel, dining, retail, wellness and other categories",
+        "Online account and app servicing",
+        "Contactless payments",
+        "Zero Lost Card Liability subject to reporting and MITC conditions",
+        "Emergency card replacement, usually within 48 hours according to the catalogue page",
+        "Online Fraud Protection Guarantee subject to reasonable-care conditions",
+        "Platinum Reserve concierge"
+      ],
+      "exclusions": {
+        "summary": "Exclusions are card-specific and must be rendered next to the earn rule, not hidden in a generic legal drawer.",
+        "smart_earn_example": [
+          "No Membership Rewards points on fuel, insurance, and utility payments as described in the product footnotes",
+          "No points on merchant-selected EMI; SafeKey EMI and post-purchase EMI conversions are treated differently in the footnote",
+          "Welcome-gift/milestone eligible spend excludes cash advances, express cash, drafts, balance transfers and fees",
+          "Accelerated merchants and caps may change"
+        ]
+      },
+      "eligibility": {
+        "summary": "Published criteria vary by product; issuer approval remains discretionary.",
+        "smart_earn_published_example": [
+          "Resident Indian",
+          "Over 18",
+          "Salaried personal annual income INR 4.5 lakh or more, or self-employed personal annual income INR 6 lakh or more",
+          "Indian bank savings or current account",
+          "Current/permanent residential address in India",
+          "Good credit history and no payment defaults",
+          "If self-employed, company trading for more than 12 months",
+          "Resident in one of the listed serviceable cities on the product page"
+        ],
+        "evidence_label": "Meets checked published criteria / May meet; never 'pre-approved'."
+      },
+      "ideal_user": [
+        "Pays the statement in full and will deliberately use Membership Rewards redemptions",
+        "Can use the specific card's accelerators or milestone benefits enough to offset its fee",
+        "Values service, offers, travel or concierge benefits and is in a currently serviceable location"
+      ],
+      "poor_fit": [
+        "Plans to revolve a balance; borrowing cost should dominate rewards",
+        "Mostly spends in excluded categories or outside a chosen card's bonus partners",
+        "Wants one simple cash-equivalent earn rate without redemption choices or caps",
+        "Cannot reliably use the acceptance footprint needed for their normal merchants"
+      ],
+      "source_evidence": [
+        {
+          "id": "amex-catalogue",
+          "kind": "official_catalogue",
+          "url": "https://www.americanexpress.com/in/credit-cards/",
+          "supports": [
+            "current displayed four-card catalogue",
+            "headline fees",
+            "issuer-level benefits",
+            "500+ reward redemption options"
+          ]
+        },
+        {
+          "id": "amex-smartearn",
+          "kind": "official_product_page",
+          "url": "https://www.americanexpress.com/in/credit-cards/smart-earn-credit-card/",
+          "supports": [
+            "SmartEarn fee",
+            "eligibility",
+            "earn examples",
+            "caps",
+            "milestones",
+            "exclusions"
+          ]
+        },
+        {
+          "id": "amex-mitc",
+          "kind": "official_legal_hub",
+          "url": "https://www.americanexpress.com/in/legal/most-important-terms-conditions-agreements.html",
+          "supports": [
+            "MITC and agreements"
+          ]
+        }
+      ],
+      "freshness": {
+        "last_checked": "2026-07-18",
+        "status": "current_source_observed",
+        "next_review_by": "2026-07-25",
+        "review_reason": "Fees, merchant accelerators, caps and eligibility can change; monitor product pages and legal hub weekly."
+      }
+    },
+    {
+      "id": "bobcard",
+      "display_name": "BOBCARD",
+      "entity_model": {
+        "role": "issuer_with_partner_and_affinity_portfolio",
+        "relationship_note": "The official site identifies BOBCARD LIMITED and presents general-market, co-branded, business, secured, professional-association and defence-affinity products.",
+        "co_brand_or_partner_warning": "Do not collapse BOBCARD-issued partner products into one reward or eligibility model; the partner/product terms control."
+      },
+      "overview": {
+        "headline": "A broad and heterogeneous portfolio: mainstream rewards, travel, cashback, fuel, rail, business, secured and affinity cards.",
+        "educational_summary": "The official catalogue exposed 28 product-detail links on 2026-07-18. Because these products target very different audiences, a provider page should teach portfolio shape and route users to card-level terms rather than advertise one provider-wide earn rate.",
+        "catalogue_products_observed": [
+          "Eterna",
+          "BOBCARD Etihad Guest Premium",
+          "BOBCARD Etihad Guest",
+          "Premier",
+          "Tiara",
+          "BOBCARD Cashback",
+          "Easy",
+          "BOBCARD Micro Enterprise",
+          "Corporate",
+          "Empower",
+          "Select",
+          "Snapdeal BOBCARD",
+          "HPCL Energie",
+          "IRCTC Credit Card",
+          "BOBCARD Scapia Credit Card",
+          "BOBCARD Uni GoldX",
+          "BOBCARD One",
+          "BUPB/BGGB/BRKGB Pragati",
+          "Nainital Bank Renaissance",
+          "Prime",
+          "ICAI Exclusive BOBCARD",
+          "ICSI Diamond",
+          "CMA One",
+          "Indian Army Yoddha",
+          "Vikram",
+          "Indian Navy Varunah",
+          "Indian Coast Guard Rakshamah",
+          "Assam Rifles The Sentinel"
+        ]
+      },
+      "cost": {
+        "summary": "No provider-wide fee is valid. Fees, waivers, APR and service charges must come from the selected card page plus the current MITC/change notice. The 2026-07-15 addendum raises finance charges for Eterna, Eterna (FD) and Tiara from 3.25% monthly (39% annually) to 3.75% monthly (45% annually).",
+        "examples": [
+          {
+            "products": [
+              "Eterna",
+              "Eterna (FD)",
+              "Tiara"
+            ],
+            "finance_charge_monthly_percent": 3.75,
+            "finance_charge_annual_percent": 45,
+            "effective_from": "2026-07-15",
+            "source": "2026-07-15 change addendum"
+          }
+        ],
+        "unknown_or_card_specific": [
+          "joining fee",
+          "annual fee",
+          "fee waiver",
+          "finance charge",
+          "late fee",
+          "cash advance fee",
+          "foreign-currency markup",
+          "reward redemption charge"
+        ]
+      },
+      "rewards": {
+        "summary": "Reward mechanics vary materially: points, cashback, airline miles, travel rewards, fuel rewards, rail benefits and partner-specific propositions all appear in the catalogue. No provider-wide rate should be shown.",
+        "valuation_status": "Unknown at provider level; calculate only from reviewed card-version terms."
+      },
+      "benefits": [
+        "Portfolio-level availability of travel/lounges, cashback, fuel, rail, UPI, business, secured and affinity propositions",
+        "Card servicing includes statements, credit-limit management, EMI booking, points redemption and upgrade paths according to the official site"
+      ],
+      "exclusions": {
+        "summary": "Use each product's reward terms and the current MITC. Partner/affinity eligibility and benefit rules are not interchangeable.",
+        "provider_level_alert": "The homepage carried a change notice. Effective 2026-07-15: Eterna/Eterna (FD)/Tiara finance charges increased; HPCL accelerated rewards and fuel-surcharge waiver apply only at the HPCL merchant list supplied to BOBCARD; accidental death cover was removed for newly issued cards across the variants listed in the addendum, with cover on previously issued listed variants ending 2026-08-25. Effective 2026-10-01, Eterna, Eterna (FD), Tiara and Varunah Premium require INR 75,000 in the preceding calendar quarter, up from INR 40,000, for unlimited domestic lounge visits."
+      },
+      "eligibility": {
+        "summary": "Eligibility differs by general-market, secured, business, co-brand, professional and defence-affinity product. The site states issuance is at the company's sole discretion.",
+        "evidence_label": "Issuer criteria not fully published at provider level; show product-specific published criteria only."
+      },
+      "ideal_user": [
+        "Has a clearly matched use case such as travel, cashback, fuel, rail, business or an eligible affinity relationship",
+        "Will compare the selected product's post-2026-07-15 terms rather than relying on provider-level marketing",
+        "For secured Prime, specifically wants an FD-backed route and accepts the deposit requirement, subject to current product terms"
+      ],
+      "poor_fit": [
+        "Wants a single simple portfolio-wide rewards proposition",
+        "Does not qualify for the relevant professional, employer, defence or partner segment",
+        "Will not verify changed fees/benefits and current card-specific exclusions"
+      ],
+      "source_evidence": [
+        {
+          "id": "bobcard-catalogue",
+          "kind": "official_catalogue",
+          "url": "https://www.bobcard.co.in/credit-card-types",
+          "supports": [
+            "28 observed product-detail links",
+            "portfolio breadth"
+          ]
+        },
+        {
+          "id": "bobcard-home",
+          "kind": "official_homepage",
+          "url": "https://www.bobcard.co.in/",
+          "supports": [
+            "BOBCARD LIMITED identity",
+            "2026-07-15 revision alert",
+            "servicing features",
+            "issuance discretion"
+          ]
+        },
+        {
+          "id": "bobcard-change-notice",
+          "kind": "official_change_notice",
+          "url": "https://bobcard.io/15JulyChangesTNC",
+          "supports": [
+            "finance-charge revision effective 2026-07-15",
+            "HPCL merchant-list restriction effective 2026-07-15",
+            "insurance withdrawal and end date",
+            "lounge spend gate effective 2026-10-01"
+          ]
+        },
+        {
+          "id": "bobcard-mitc",
+          "kind": "official_legal_page",
+          "url": "https://www.bobcard.co.in/most-important-terms-and-condition/",
+          "supports": [
+            "current MITC"
+          ]
+        }
+      ],
+      "freshness": {
+        "last_checked": "2026-07-18",
+        "status": "urgent_reverification",
+        "next_review_by": "2026-07-18",
+        "review_reason": "A change became effective three days before observation. Re-ingest the change notice and MITC before publishing any card-level economics."
+      }
+    },
+    {
+      "id": "federal-bank",
+      "display_name": "Federal Bank",
+      "entity_model": {
+        "role": "issuer_with_core_and_partner_cards",
+        "relationship_note": "Federal Bank's own catalogue includes core cards across Visa, Mastercard and RuPay, while the page also references partner propositions such as Scapia. Network variants may share a tier name but remain distinct variants.",
+        "co_brand_or_partner_warning": "Do not merge Federal Bank core cards, Scapia, or OneCard/FPL partner-issued cards into one reward model."
+      },
+      "overview": {
+        "headline": "Core 3-2-1 rewards cards across multiple networks, plus business and partner propositions.",
+        "educational_summary": "The official page observed core Celesta, Imperio and Signet variants, RuPay Wave and Fed StarBiz. It explicitly warns that displayed variant/network options are illustrative and actual selection is available during application.",
+        "catalogue_products_observed": [
+          "Visa Celesta",
+          "Visa Imperio",
+          "Visa Signet",
+          "Fed StarBiz Visa",
+          "Mastercard Celesta",
+          "Mastercard Imperio",
+          "Mastercard Signet",
+          "RuPay Signet",
+          "RuPay Wave",
+          "Fed StarBiz RuPay"
+        ],
+        "partner_reference_observed": [
+          "Scapia"
+        ]
+      },
+      "cost": {
+        "summary": "Core-card joining/annual fees and waiver conditions are card-specific. The provider page promotes dynamic APR and up to 48 interest-free days, but does not justify one universal borrowing-cost number.",
+        "examples": [],
+        "unknown_or_card_specific": [
+          "joining fee",
+          "annual fee",
+          "fee waiver",
+          "assigned dynamic APR",
+          "late fee",
+          "cash advance fee",
+          "foreign-currency markup",
+          "reward redemption charge"
+        ]
+      },
+      "rewards": {
+        "summary": "For the core card variants, the provider page states a 3-2-1 programme per INR 100: 3X on travel and international spend, 2X on dining, and 1X on other categories. Caps, exclusions, point value and redemption conditions still require card/reward terms before value modelling.",
+        "contractual_rate_display": "Show points earned, not a cashback percentage, until a sourced redemption value and option are selected.",
+        "valuation_status": "No rupee value per point asserted from the catalogue page."
+      },
+      "benefits": [
+        "Selected variants advertise airport lounge access",
+        "Selected variants advertise Amazon Pay, Swiggy or BigBasket vouchers and INOX BOGO offers",
+        "Selected cards advertise fuel-surcharge waiver",
+        "Instant virtual card after approval",
+        "EMI conversion and digital controls through FedMobile/FedNet",
+        "Contactless and tokenized payment support",
+        "Up to 48 days interest-free credit on purchases, subject to billing and payment conditions",
+        "Zero lost-card liability once reported, subject to terms"
+      ],
+      "exclusions": {
+        "summary": "The catalogue page does not provide enough detail to normalize caps, MCC/category definitions, lounge spend gates, voucher qualification or excluded transactions. These fields must remain unmodelled until product/reward terms are reviewed.",
+        "network_warning": "The website says displayed card variant and network options are illustrative; do not promise the displayed network before application."
+      },
+      "eligibility": {
+        "summary": "Application asks for personal and income details and may require PAN, Aadhaar, bank statements/income proof and video KYC. Approval and actual variant/network remain issuer decisions.",
+        "evidence_label": "Issuer criteria not fully published / May meet; do not translate document readiness into approval likelihood."
+      },
+      "ideal_user": [
+        "Pays in full and can use the 3-2-1 travel/international/dining structure on a reviewed core variant",
+        "Values issuer app controls, instant virtual access after approval and selected lifestyle vouchers/lounge benefits",
+        "For RuPay variants, specifically wants a RuPay/UPI-capable route after verifying current product support"
+      ],
+      "poor_fit": [
+        "Needs a guaranteed network variant before the application process",
+        "Needs a simple cash-equivalent return without researching point redemption value",
+        "Is choosing primarily for a lounge or voucher benefit whose current gate/cap has not been verified",
+        "Plans to revolve and has not received/compared the assigned dynamic APR"
+      ],
+      "source_evidence": [
+        {
+          "id": "federal-catalogue",
+          "kind": "official_catalogue",
+          "url": "https://www.federal.bank.in/credit-cards",
+          "supports": [
+            "core variants",
+            "3-2-1 categories",
+            "benefits",
+            "application flow",
+            "illustrative network warning"
+          ]
+        },
+        {
+          "id": "federal-mitc",
+          "kind": "official_legal_page",
+          "url": "https://www.federal.bank.in/credit-cards-mitc",
+          "supports": [
+            "MITC"
+          ]
+        },
+        {
+          "id": "federal-rates",
+          "kind": "official_schedule",
+          "url": "https://www.federal.bank.in/rates-and-charges",
+          "supports": [
+            "rates and charges"
+          ]
+        }
+      ],
+      "freshness": {
+        "last_checked": "2026-07-18",
+        "status": "current_source_observed_partial_terms",
+        "next_review_by": "2026-07-25",
+        "review_reason": "Catalogue identity and broad earn categories are current; card-level economics remain incomplete until MITC, schedule and reward terms are normalized."
+      }
+    },
+    {
+      "id": "onecard-fpl",
+      "display_name": "OneCard / FPL Technologies",
+      "entity_model": {
+        "role": "technology_and_program_manager_with_multiple_issuing_banks",
+        "relationship_note": "FPL Technologies operates the OneCard product/app experience; the official site lists separate credit-card terms for BOBCARD, CSB Bank, Federal Bank, IDFC Bank, SBM Bank, South Indian Bank and Indian Bank. The issuing bank and its terms must be shown on every card/profile instance.",
+        "co_brand_or_partner_warning": "OneCard is not one universal issuer contract. APR, charges and legal terms can differ by issuing bank. Store issuer_bank_id on every OneCard variant."
+      },
+      "overview": {
+        "headline": "An app-first metal-card proposition with multiple issuing-bank partners and an FD-backed route for lower/no credit history.",
+        "educational_summary": "The official site emphasizes no joining, annual or reward-redemption fee, app controls, a metal card, digital onboarding, top-two-category rewards, EMI and family-card controls. Contractual terms are split by issuing bank.",
+        "catalogue_products_observed": [
+          "One Credit Card (issuer-bank-specific)",
+          "FD-backed One Credit Card"
+        ]
+      },
+      "cost": {
+        "summary": "The product homepage states no joining fee, no annual fee and no reward-redemption fee. Other charges are not universal and must be read from the applicable issuing bank's legal terms.",
+        "examples": [
+          {
+            "product": "One Credit Card",
+            "joining_fee_inr": 0,
+            "annual_fee_inr": 0,
+            "reward_redemption_fee_inr": 0,
+            "source_scope": "official product homepage claim"
+          }
+        ],
+        "unknown_or_issuer_specific": [
+          "APR/finance charge",
+          "late fee",
+          "cash advance fee",
+          "foreign-currency markup",
+          "over-limit fee",
+          "replacement fee",
+          "EMI rate/fee"
+        ]
+      },
+      "rewards": {
+        "summary": "The homepage states 5X rewards on the top two spend categories, instant crediting, no expiry, no redemption fee and fractional points. Exact base earn, category determination, exclusions, caps and point value must be sourced from current programme/issuer terms before annual-value modelling.",
+        "valuation_status": "No cash-equivalent return asserted from the homepage claim alone."
+      },
+      "benefits": [
+        "App controls for transaction limits, domestic/international, online/offline and contactless usage",
+        "Metal card positioning",
+        "Digital onboarding and activation",
+        "EMI management in app",
+        "MyFamily shared-limit cards with separate offers and primary-user controls",
+        "FD-backed route described for users with low or no credit score"
+      ],
+      "exclusions": {
+        "summary": "The homepage does not establish category taxonomy, excluded MCCs, monthly caps or cash value. Those fields must stay unknown until programme terms and the applicable bank terms are reviewed.",
+        "issuer_contract_rule": "Always link the terms for the user's actual issuing bank; do not show a generic OneCard MITC as if it governs all users."
+      },
+      "eligibility": {
+        "summary": "The eligibility page states a maximum age of 60, resident Indian status, location serviceability, and a credit score of 750+ for the metal One Credit Card; it says users with low/no score may still obtain an FD-backed One Credit Card. Final approval and serviceability remain subject to the issuing bank/process.",
+        "published_details": [
+          "Maximum age 60",
+          "Resident Indian",
+          "750+ credit score stated for metal One Credit Card",
+          "FD-backed route stated for low/no score",
+          "67+ locations stated for metal and 100+ for FD-backed at observation time",
+          "Eligibility check includes age, nationality, credit score, location and employment status"
+        ],
+        "evidence_label": "May meet published criteria; issuer decision remains undisclosed."
+      },
+      "ideal_user": [
+        "Wants app-first controls and will use top-two-category rewards after checking current programme terms",
+        "Values a no-joining/no-annual-fee proposition and metal form factor",
+        "Needs an FD-backed route because of a low or absent score and accepts deposit lock-in/issuer terms"
+      ],
+      "poor_fit": [
+        "Assumes every OneCard has identical APR, fees or bank contract",
+        "Needs a guaranteed issuing bank before the application offer is known",
+        "Needs transparent cash-equivalent rewards without verifying point value and category mechanics",
+        "Is outside current serviceability or above the published maximum age"
+      ],
+      "source_evidence": [
+        {
+          "id": "onecard-home",
+          "kind": "official_product_page",
+          "url": "https://www.getonecard.app/",
+          "supports": [
+            "fee claims",
+            "5X top-two categories",
+            "points do not expire",
+            "fractional points",
+            "app controls",
+            "partner bank list",
+            "MyFamily",
+            "EMI"
+          ]
+        },
+        {
+          "id": "onecard-eligibility",
+          "kind": "official_eligibility_page",
+          "url": "https://www.getonecard.app/credit-card-eligibility/",
+          "supports": [
+            "maximum age",
+            "resident status",
+            "credit-score statement",
+            "FD-backed route",
+            "serviceability counts",
+            "documents"
+          ]
+        },
+        {
+          "id": "onecard-bank-terms-hub",
+          "kind": "official_legal_links",
+          "url": "https://www.getonecard.app/",
+          "supports": [
+            "separate BOBCARD, CSB Bank, Federal Bank, IDFC FIRST Bank, SBM Bank, South Indian Bank and Indian Bank terms links"
+          ]
+        },
+        {
+          "id": "onecard-federal-terms",
+          "kind": "official_bank_specific_terms",
+          "url": "https://www.getonecard.app/legal/federal_conditions/",
+          "supports": [
+            "example of issuer-specific OneCard legal terms"
+          ]
+        }
+      ],
+      "freshness": {
+        "last_checked": "2026-07-18",
+        "status": "current_marketing_observed_terms_fragmented",
+        "next_review_by": "2026-07-25",
+        "review_reason": "Monitor homepage/programme claims and each issuing bank's legal terms independently. Recheck serviceability dynamically rather than publishing location counts as permanent."
+      }
+    }
+  ]
+}

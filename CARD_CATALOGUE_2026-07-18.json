@@ -1,0 +1,3612 @@
+{
+  "metadata": {
+    "title": "Broad catalogue of Indian consumer credit cards from official issuer surfaces",
+    "as_of": "2026-07-18",
+    "generated_at": "2026-07-18",
+    "row_count": 267,
+    "issuers_requested": 17,
+    "issuers_with_verified_card_rows": 16,
+    "method": "Manual normalization of names visible on issuer catalog pages, dynamic catalog tabs, official sitemaps, and issuer-owned product links. Competitor lists were not used to verify terms.",
+    "field_policy": "null means unknown/not directly supported. annual_fee_inr appears only where the official catalog directly displayed it during this review. min_income_inr is omitted from every row because no card-specific minimum was directly supported in the inspected catalog evidence. status means catalog presence, not guaranteed application availability.",
+    "category_policy": "Broad editorial discovery tags derived conservatively from the official card name and/or issuer catalog section; they are not contractual reward rules.",
+    "limitations": [
+      "Catalog presence can include invite-only, relationship-only, upgrade-only, or stale legacy entries; re-check product pages before publication or recommendation.",
+      "Network is null unless explicit in the official name/catalog evidence or inherent to an American Express-issued product.",
+      "secured is null unless the official surface explicitly identified FD backing/secured status for that product.",
+      "Fees exclude GST unless the issuer catalog explicitly said otherwise; no fee waiver or income values are inferred.",
+      "Business/corporate cards were excluded even where issuer catalogs mixed them into consumer pages."
+    ]
+  },
+  "coverage": [
+    {
+      "issuer": "HDFC Bank",
+      "row_count": 22,
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards",
+      "note": null
+    },
+    {
+      "issuer": "SBI Card",
+      "row_count": 23,
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "note": null
+    },
+    {
+      "issuer": "ICICI Bank",
+      "row_count": 26,
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "note": null
+    },
+    {
+      "issuer": "Axis Bank",
+      "row_count": 37,
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card",
+      "note": null
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "row_count": 19,
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card",
+      "note": null
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "row_count": 25,
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards",
+      "note": "Main catalog was blocked by Cloudflare; official sitemap and official product URLs were used to establish listed product identities."
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "row_count": 22,
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "note": null
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "row_count": 24,
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "note": null
+    },
+    {
+      "issuer": "YES BANK",
+      "row_count": 9,
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "note": null
+    },
+    {
+      "issuer": "RBL Bank",
+      "row_count": 7,
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "note": null
+    },
+    {
+      "issuer": "HSBC India",
+      "row_count": 7,
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/",
+      "note": null
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "row_count": 9,
+      "catalog_url": "https://www.sc.bank.in/credit-cards/",
+      "note": null
+    },
+    {
+      "issuer": "American Express India",
+      "row_count": 5,
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/",
+      "note": null
+    },
+    {
+      "issuer": "BOBCARD",
+      "row_count": 26,
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types",
+      "note": null
+    },
+    {
+      "issuer": "Federal Bank",
+      "row_count": 5,
+      "catalog_url": "https://www.federal.bank.in/credit-cards",
+      "note": null
+    },
+    {
+      "issuer": "DBS Bank India",
+      "row_count": 0,
+      "catalog_url": "https://www.dbs.bank.in/in/treasures/default.page",
+      "note": "No current consumer credit-card catalog or product row could be verified on the accessible official DBS India surface; the legacy credit-card path redirected to a generic/error page. Zero rows rather than inventing a product."
+    },
+    {
+      "issuer": "OneCard / FPL Technologies",
+      "row_count": 1,
+      "catalog_url": "https://www.getonecard.app/",
+      "note": "OneCard is a technology/co-brand program with multiple partner-bank issuers shown on its official site; represented as one program-level product row, not duplicated by partner bank."
+    }
+  ],
+  "sources": [
+    {
+      "issuer": "HDFC Bank",
+      "url": "https://www.hdfc.bank.in/credit-cards",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "SBI Card",
+      "url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "Axis Bank",
+      "url": "https://www.axis.bank.in/cards/credit-card",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "url": "https://www.idfcfirst.bank.in/credit-card",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "url": "https://www.au.bank.in/personal-banking/credit-cards",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "YES BANK",
+      "url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "RBL Bank",
+      "url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "HSBC India",
+      "url": "https://www.hsbc.co.in/credit-cards/",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "url": "https://www.sc.bank.in/credit-cards/",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "American Express India",
+      "url": "https://www.americanexpress.com/in/credit-cards/",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "BOBCARD",
+      "url": "https://www.bobcard.co.in/credit-card-types",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "Federal Bank",
+      "url": "https://www.federal.bank.in/credit-cards",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "DBS Bank India",
+      "url": "https://www.dbs.bank.in/in/treasures/default.page",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    },
+    {
+      "issuer": "OneCard / FPL Technologies",
+      "url": "https://www.getonecard.app/",
+      "accessed_at": "2026-07-18",
+      "source_type": "official_catalog_or_official_issuer_surface"
+    }
+  ],
+  "cards": [
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "INFINIA Metal Edition Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Diners Club Black Metal Edition Credit Card",
+      "network": "Diners Club",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Regalia Gold Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Diners Club Privilege Credit Card",
+      "network": "Diners Club",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Millennia Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "MoneyBack+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Freedom Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "PIXEL Play Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "PIXEL Go Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "HDFC Bank UPI RuPay Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Tata Neu Infinity HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Tata Neu Plus HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Swiggy HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "dining"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Swiggy Ornge HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "dining"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Swiggy BLCK HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "dining"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Marriott Bonvoy HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "IndianOil HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "IRCTC HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "PhonePe HDFC Bank Uno Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "PhonePe HDFC Bank Ultimo Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Shoppers Stop Black HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping",
+        "premium"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "HDFC Bank",
+      "card_name": "Shoppers Stop HDFC Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.hdfc.bank.in/credit-cards",
+      "catalog_url": "https://www.hdfc.bank.in/credit-cards"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Aurum Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SBI Card ELITE",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 4999,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SBI Card PRIME",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 2999,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SBI Card PULSE",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "CASHBACK SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 999,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SimplyCLICK SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 499,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SimplySAVE SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 499,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "SBI Card Miles Elite",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "annual_fee_inr": 4999,
+      "annual_fee_source_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "IndiGo SBI Card ELITE",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "IndiGo SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "IRCTC SBI Card Premier",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "KrisFlyer SBI Card Apex",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "KrisFlyer SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Tata Neu Plus SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Tata Neu Infinity SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Titan SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Doctor's SBI Card (in Association with IMA)",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "PhonePe SBI Card PURPLE",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "PhonePe SBI Card SELECT BLACK",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI",
+        "premium",
+        "lifestyle"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Apollo SBI Card SELECT",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Flipkart SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Reliance SBI Card PRIME",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "SBI Card",
+      "card_name": "Reliance SBI Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.sbicard.com/en/personal/credit-cards.html",
+      "catalog_url": "https://www.sbicard.com/en/personal/credit-cards.html"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Emeralde Private Metal Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Emeralde Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Sapphiro Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Rubyx Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Coral Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Platinum Chip Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "starter"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Times Black ICICI Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Adani One Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Adani One Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "MakeMyTrip Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Emirates Emeralde Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Emirates Sapphiro Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Emirates Skywards Rubyx Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "HPCL Super Saver Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "HPCL Coral Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel",
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Custom Design Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Expression Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Amazon Pay ICICI Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "MakeMyTrip Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "MakeMyTrip Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Chennai Super Kings Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Parakram Select Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle",
+        "affinity"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "Parakram Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "NRI Sapphiro Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "NRI Secured Coral Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "ICICI Bank",
+      "card_name": "NRI Coral Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.icici.bank.in/personal-banking/cards/credit-card",
+      "catalog_url": "https://www.icici.bank.in/personal-banking/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "IndiGo Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "IndiGo Axis Bank Premium Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Flipkart Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Neo Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "IndianOil Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank My Zone Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank ACE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank REWARDS Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Google Pay Flex Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Airtel Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "HORIZON Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Select Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Cashback Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Magnus Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Reserve Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank MY Zone Easy Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle",
+        "starter"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "IndianOil Easy Axis Bank Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel",
+        "starter"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Privilege Easy Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle",
+        "starter"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Atlas Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank AURA Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "IndianOil Axis Bank Premium Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel",
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Pride Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Pride Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Flipkart Axis Bank Super Elite Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping",
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "SpiceJet Axis Bank Voyage Black Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Samsung Axis Bank Infinite Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Fibe Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Shoppers Stop Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "SpiceJet Axis Bank Voyage Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Samsung Axis Bank Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Miles and More Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Freecharge Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Freecharge Plus Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "LIC Axis Bank Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "LIC Axis Bank Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Kwik Axis Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "Axis Bank",
+      "card_name": "Axis Bank Privilege Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.axis.bank.in/cards/credit-card",
+      "catalog_url": "https://www.axis.bank.in/cards/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "Ashva Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "Mayura Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "Diamond Reserve Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST WOW! Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST WOW! Black Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "starter"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "IndiGo IDFC FIRST Bank Dual Cards",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "Gaj Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "Hello Cashback Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Select Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Classic Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Wealth Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Millennia Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST SWYP Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST EA₹N Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Power Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Power+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "LIC Classic Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity",
+        "starter"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "LIC Select Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle",
+        "affinity"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "IDFC FIRST Bank",
+      "card_name": "FIRST Private Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.idfcfirst.bank.in/credit-card",
+      "catalog_url": "https://www.idfcfirst.bank.in/credit-card"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Zenith+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.au.bank.in/premium-banking/credit-cards/zenith-plus-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Traverse Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/premium-banking/credit-cards/traverse-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Altura+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/altura-plus-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Altura Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/altura-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "ixigo AU Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/ixigo-au-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Vetta Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/vetta-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "InstaPay Credit Card",
+      "network": null,
+      "secured": true,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/instapay-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "XCITE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/swipeup-program/xcite-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "XCITE Ultra Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/swipeup-program/xcite-ultra-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "XCITE ACE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/swipeup-program/xcite-ace-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "ABC NXT Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/abc-nxt-and-abc-flex-credit-cards",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "ABC FLEX Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/abc-nxt-and-abc-flex-credit-cards",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "LIT Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/lit-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "NOMO Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/nomo-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Zenith Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/zenith-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "ABC PRO Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/abc-pro-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "KOSMO Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/kosmo-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "AU SPONT Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/au-spont-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Lakshya Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/laksya-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Ananta Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/ananta-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Prathama Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/prathama-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Tejas Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/tejas-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "CheQ AU Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/cheq-au-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "Paytm AU Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/paytm-au-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "AU Small Finance Bank",
+      "card_name": "AU CS Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.au.bank.in/personal-banking/credit-cards/au-cs-credit-card",
+      "catalog_url": "https://www.au.bank.in/personal-banking/credit-cards"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "IndusInd Platinum RuPay Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI",
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "EazyDiner IndusInd Bank Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "dining",
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Legend Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "EazyDiner Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "dining"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Platinum Aura Edge Visa/Mastercard Credit Card",
+      "network": "Visa or Mastercard",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Platinum Visa Credit Card",
+      "network": "Visa",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "IndusInd Bank Avios Visa Infinite Credit Card",
+      "network": "Visa",
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Pinnacle Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Nexxt Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "IndusInd Bank Tiger Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Samman Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "IndusInd Bank Jio-bp Mobility+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "CRED IndusInd Bank RuPay Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Poonawalla Fincorp IndusInd Bank eLITE RuPay Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI",
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Indus Solitaire Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Pioneer Private Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "ePay American Express Credit Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Indulge Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Pioneer Heritage Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Pioneer Legacy Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Crest Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "IndusInd Bank",
+      "card_name": "Celesta Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+      "catalog_url": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Cashback+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "League Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Air+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "IndiGo Kotak Premium Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "IndiGo Kotak Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Air Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "IndianOil Kotak Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "PVR INOX Kotak Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "White Reserve Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak UPI RuPay Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak 811 Dream Different Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Cashback+ Prime Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback",
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Air+ Prime Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Zen Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "PVR Kotak Gold Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Mojo Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "White Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Royale Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Privy League Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "NRI Royale Signature Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Urbane Gold Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak Infinite Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "Kotak 811 Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "Kotak Mahindra Bank",
+      "card_name": "PVR Kotak Platinum Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "lifestyle"
+      ],
+      "official_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+      "catalog_url": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "MARQUÉE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "RESERV Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "SELECT Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "ACE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "BYOC Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "Wellness Plus Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "EMI Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "YES PROSPERITY EDGE Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "YES BANK",
+      "card_name": "FinBooster Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards",
+      "catalog_url": "https://www.yes.bank.in/personal-banking/yes-individual/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "Platinum Maxima Plus Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "Icon Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "Shoprite Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "Cookies Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "Platinum Maxima Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "RBL Younique Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "RBL Bank",
+      "card_name": "World Safari Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "forex"
+      ],
+      "official_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards",
+      "catalog_url": "https://www.rbl.bank.in/personal-banking/cards/credit-cards"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC Taj Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC TravelOne Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "forex"
+      ],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC Live+ Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC Premier Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC Visa Platinum Credit Card",
+      "network": "Visa",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC RuPay Platinum Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI",
+        "premium"
+      ],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "HSBC India",
+      "card_name": "HSBC RuPay Cashback Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback",
+        "UPI"
+      ],
+      "official_url": "https://www.hsbc.co.in/credit-cards/",
+      "catalog_url": "https://www.hsbc.co.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Rewards Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Standard Chartered EaseMyTrip Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Smart Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Ultimate Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "affinity"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Platinum Rewards Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium",
+        "rewards"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Super Value Titanium Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Manhattan Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "Priority Visa Infinite Credit Card",
+      "network": "Visa",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "Standard Chartered India",
+      "card_name": "DigiSmart Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.sc.bank.in/credit-cards/",
+      "catalog_url": "https://www.sc.bank.in/credit-cards/"
+    },
+    {
+      "issuer": "American Express India",
+      "card_name": "American Express SmartEarn Credit Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.americanexpress.com/in/credit-cards/",
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/"
+    },
+    {
+      "issuer": "American Express India",
+      "card_name": "American Express Membership Rewards Credit Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "rewards"
+      ],
+      "official_url": "https://www.americanexpress.com/in/credit-cards/",
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/"
+    },
+    {
+      "issuer": "American Express India",
+      "card_name": "American Express Platinum Reserve Credit Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.americanexpress.com/in/credit-cards/",
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/"
+    },
+    {
+      "issuer": "American Express India",
+      "card_name": "American Express Platinum Travel Credit Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.americanexpress.com/in/credit-cards/",
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/"
+    },
+    {
+      "issuer": "American Express India",
+      "card_name": "American Express Platinum Card",
+      "network": "American Express",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.americanexpress.com/in/credit-cards/",
+      "catalog_url": "https://www.americanexpress.com/in/credit-cards/"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Indian Army Yoddha",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/indian-army-yoddha",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD IRCTC Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/irctc-credit-card",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD HPCL ENERGIE",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "fuel"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/hpcl-energie",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD UNI GoldX",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-uni-goldx",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Cashback",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "cashback"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-cashback",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Tiara",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/tiara",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Easy",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/easy",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Indian Coast Guard Rakshamah",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/indian-coast-guard-rakshamah",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Scapia Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-scapia-credit-card",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Premier",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/premier",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD ICSI Diamond",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/icsi-diamond",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Vikram",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/vikram",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD CMA One",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/cma-one",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD One",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-one",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Etihad Guest",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Assam Rifles The Sentinel",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/assam-rifles-the-sentinel",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Empower",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/empower",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Select",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "lifestyle"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/select",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "Snapdeal BOBCARD",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "shopping"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/snapdeal-bobcard",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "Nainital Bank Renaissance BOBCARD",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/nainital-bank-renaissance",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Eterna",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/eterna",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD BUPB/BGGB/BRKGB Pragati",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bupb-bggb-brkgb-pragati",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Prime",
+      "network": null,
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/prime",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Etihad Guest Premium",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel",
+        "premium"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/bobcard-etihad-guest-premium",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "BOBCARD Indian Navy Varunah",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/indian-navy-varunah",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "BOBCARD",
+      "card_name": "ICAI Exclusive BOBCARD",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "affinity"
+      ],
+      "official_url": "https://www.bobcard.co.in/credit-card-types/icai-exclusive-bobcard",
+      "catalog_url": "https://www.bobcard.co.in/credit-card-types"
+    },
+    {
+      "issuer": "Federal Bank",
+      "card_name": "Federal Bank Celesta Credit Card",
+      "network": "Mastercard",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.federal.bank.in/credit-cards",
+      "catalog_url": "https://www.federal.bank.in/credit-cards"
+    },
+    {
+      "issuer": "Federal Bank",
+      "card_name": "Federal Bank Imperio Credit Card",
+      "network": "Mastercard",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [],
+      "official_url": "https://www.federal.bank.in/credit-cards",
+      "catalog_url": "https://www.federal.bank.in/credit-cards"
+    },
+    {
+      "issuer": "Federal Bank",
+      "card_name": "Federal Bank Signet Credit Card",
+      "network": "Mastercard",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "starter"
+      ],
+      "official_url": "https://www.federal.bank.in/credit-cards",
+      "catalog_url": "https://www.federal.bank.in/credit-cards"
+    },
+    {
+      "issuer": "Federal Bank",
+      "card_name": "Federal RuPay Wave Credit Card",
+      "network": "RuPay",
+      "secured": null,
+      "cobranded": false,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "UPI"
+      ],
+      "official_url": "https://www.federal.bank.in/credit-cards",
+      "catalog_url": "https://www.federal.bank.in/credit-cards"
+    },
+    {
+      "issuer": "Federal Bank",
+      "card_name": "Scapia Federal Bank Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "travel"
+      ],
+      "official_url": "https://www.federal.bank.in/credit-cards",
+      "catalog_url": "https://www.federal.bank.in/credit-cards"
+    },
+    {
+      "issuer": "OneCard / FPL Technologies",
+      "card_name": "OneCard Metal Credit Card",
+      "network": null,
+      "secured": null,
+      "cobranded": true,
+      "status": "listed_on_official_catalog",
+      "categories": [
+        "premium"
+      ],
+      "official_url": "https://www.getonecard.app/",
+      "catalog_url": "https://www.getonecard.app/"
+    }
+  ]
+}
