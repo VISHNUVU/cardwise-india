@@ -10,6 +10,9 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - Desktop visual inspection: no clipping or overflow; clear Configure + Compare composition.
 - Playwright mobile viewport: 390 × 844.
 - Seven current allow-listed recommendation cards rendered.
+- All 267 catalogue cards produce deterministic product-fit scores in the bounded range 10–95, with at least two visible reasons and one of three evidence-confidence labels.
+- The questionnaire re-sorts the market-wide catalogue as well as the seven detailed-math cards; a new-to-credit, zero-fee profile surfaces FD-backed/starter reasoning.
+- Catalogue and profile disclosures state that product fit is not approval odds and that unknown terms do not count as benefits.
 - No horizontal page overflow.
 - New-to-credit plus zero-fee preference changed the first-ranked result from CASHBACK SBI Card to FIRST WOW! (secured).
 - Two cards could be added to comparison.

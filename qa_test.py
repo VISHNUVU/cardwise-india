@@ -22,9 +22,25 @@ with sync_playwright() as p:
     initial = page.locator(".credit-card h3").first.text_content()
     page.get_by_label("New to credit", exact=True).check()
     page.locator("#fee").select_option("0")
-    page.get_by_role("button", name="Refresh recommendations").click()
+    page.get_by_role("button", name="Recommend cards").click()
     changed = page.locator(".credit-card h3").first.text_content()
     assert changed == "FIRST WOW! (secured)", (initial, changed)
+
+    # The same questionnaire ranks the complete discovery catalogue using
+    # verified product attributes, without inventing annual-value economics.
+    assert page.locator("#catalogSort").input_value() == "personalized"
+    assert page.locator(".catalog-card .catalog-fit").count() == 18
+    assert page.locator(".catalog-card .catalog-fit-score").first.is_visible()
+    assert "/100 product fit" in page.locator(".catalog-card .catalog-fit-score").first.text_content()
+    assert page.locator(".catalog-card .catalog-reasons li").count() >= 2
+    assert "new-to-credit" in page.locator(".catalog-card .catalog-reasons").first.text_content().lower()
+    assert page.locator("#recommendationDisclosure").is_visible()
+    assert "not approval odds" in page.locator("#recommendationDisclosure").text_content().lower()
+    broad_scores = page.evaluate("""() => window.cardCatalogue.map(card => window.cardwiseProductFit(card))""")
+    assert len(broad_scores) == 267
+    assert all(10 <= item["score"] <= 95 for item in broad_scores)
+    assert all(len(item["reasons"]) >= 2 for item in broad_scores)
+    assert {item["confidence"] for item in broad_scores} <= {"Detailed maths", "More evidence", "Limited evidence"}
 
     page.locator(".compare-btn").nth(0).click()
     page.locator(".compare-btn").nth(1).click()
@@ -45,6 +61,8 @@ with sync_playwright() as p:
     assert "52 with explicit cashback %" in page.locator("#coverageIssuers").text_content()
     assert page.locator(".catalog-card").count() == 18
     assert page.locator(".profile-btn").count() == 18
+    page.locator("#catalogSearch").fill("Amazon Pay ICICI Bank Credit Card")
+    assert page.locator(".catalog-card").count() == 1
     first_catalog_name = page.locator(".catalog-card h3").first.text_content()
     page.locator(".profile-btn").first.click()
     assert page.locator("#profileModal").evaluate("el => el.classList.contains('open')")
@@ -52,7 +70,10 @@ with sync_playwright() as p:
     assert share_hash.startswith("#card=")
     assert page.locator("#shareCard").is_visible()
     assert page.locator("#profileTitle").text_content() == first_catalog_name
-    assert page.locator("#profileContent .fact").count() == 6
+    assert page.locator("#profileContent .profile-recommendation").is_visible()
+    assert "/100 product fit" in page.locator("#profileContent .profile-recommendation").text_content()
+    assert "not approval odds" in page.locator("#profileContent .profile-recommendation").text_content().lower()
+    assert page.locator("#profileContent .profile-section").first.locator(".fact").count() == 6
     assert page.locator("#profileContent .profile-section").count() >= 7
     assert page.locator("#profileContent").get_by_text("Cashback offers & percentages", exact=True).is_visible()
     assert page.locator("#profileContent .cashback-offer").count() >= 1
@@ -81,7 +102,9 @@ with sync_playwright() as p:
     assert page.evaluate("location.hash") == ""
     assert page.locator("body").evaluate("el => el.style.overflow") == ""
     assert not page.locator("#profileModal").evaluate("el => el.classList.contains('open')")
+    page.locator("#catalogSearch").fill("")
     page.goto(BASE_URL + share_hash, wait_until="networkidle")
+    page.reload(wait_until="networkidle")
     assert page.locator("#profileModal").evaluate("el => el.classList.contains('open')")
     assert page.locator("#profileTitle").text_content() == first_catalog_name
     page.locator("#closeProfile").click()

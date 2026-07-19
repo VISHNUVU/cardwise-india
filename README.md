@@ -28,6 +28,9 @@ python3 qa_test.py
 
 - one-minute spend/profile questionnaire;
 - deterministic ranking across seven currently allow-listed reward models;
+- evidence-aware product-fit recommendations across all 267 catalogue cards, with visible scores, reasons and evidence-confidence labels;
+- questionnaire inputs update both the seven detailed-math rankings and the market-wide catalogue ranking;
+- product-fit scoring uses category alignment, known fee comfort, secured/starter signals, lounge preference and evidence coverage; it is explicitly not an approval prediction;
 - official-source discovery catalogue with 267 products across 16 issuers, after reviewing 17 issuer surfaces, in [`catalog-data.js`](catalog-data.js);
 - full normalized research dataset and coverage metadata in [`CARD_CATALOGUE_2026-07-18.json`](CARD_CATALOGUE_2026-07-18.json);
 - 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js).
@@ -43,6 +46,7 @@ python3 qa_test.py
 - catalogue/reward-model separation audit in [`IMPLEMENTATION_AUDIT.md`](IMPLEMENTATION_AUDIT.md);
 - search plus issuer, network, use-case, fee, minimum recorded cashback offer, cashback-record-available, lounge, UPI, forex, secured, co-brand, detailed-model and official-fee filters;
 - highest-recorded-cashback-offer sorting and condition-aware cashback labels;
+- best-product-fit sorting across the full catalogue;
 - shareable `#card=<canonical-id>` profile links with a Copy link control;
 - estimated ongoing yearly rewards, effective fee and net value, while year-one value remains explicitly unmodeled until welcome-benefit value is normalized;
 - separate eligibility compatibility signal inside the score;
