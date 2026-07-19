@@ -41,7 +41,8 @@ def main() -> None:
     required_term_groups = {"cost", "rewards", "benefits", "eligibility", "availability"}
     required_profile_keys = {
         "identity", "overview", "knownFacts", "learningGuide",
-        "missingMaterialFacts", "contractualTerms", "evidence", "profileCompleteness"
+        "missingMaterialFacts", "contractualTerms", "evidence", "profileCompleteness",
+        "cashbackOffers"
     }
 
     evidence_links = 0
@@ -49,6 +50,8 @@ def main() -> None:
     known_fees = 0
     card_enriched = 0
     provider_context = 0
+    cashback_profiles = 0
+    cashback_offers = 0
     for profile in profiles:
         pid = profile["id"]
         card = card_by_id[pid]
@@ -83,6 +86,27 @@ def main() -> None:
                 fail(f"{pid}: invalid supported-group count")
         if "providerContextId" in profile:
             provider_context += 1
+        cashback = profile["cashbackOffers"]
+        offers = cashback.get("offers", [])
+        expected_status = "official_percentage_evidence_found" if offers else "no_cashback_percentage_verified"
+        if cashback.get("status") != expected_status:
+            fail(f"{pid}: cashback status does not match offer coverage")
+        if offers:
+            cashback_profiles += 1
+        for offer in offers:
+            cashback_offers += 1
+            percentage = offer.get("percentage")
+            if not isinstance(percentage, (int, float)) or not 0 < percentage <= 100:
+                fail(f"{pid}: invalid cashback percentage")
+            if offer.get("evidenceStatus") not in {
+                "official_source_structured",
+                "official_excerpt_requires_product_association_review",
+            }:
+                fail(f"{pid}: unsupported cashback evidence status")
+            if not offer.get("sourceUrl", "").startswith("https://"):
+                fail(f"{pid}: cashback percentage lacks HTTPS official source")
+            if not offer.get("description"):
+                fail(f"{pid}: cashback percentage lacks a source description")
         questions += len(profile["learningGuide"]["questionsBeforeApplying"])
         known_fees += profile_fee is not None
 
@@ -94,6 +118,11 @@ def main() -> None:
         fail(f"card-level enrichment mismatch: {card_enriched}")
     if provider_context != enrichment.get("provider_context_profile_count") or provider_context != 37:
         fail(f"provider-context enrichment mismatch: {provider_context}")
+    cashback_meta = profile_doc["metadata"].get("cashback_offer_coverage", {})
+    if cashback_profiles != cashback_meta.get("profiles_with_explicit_percentage_evidence"):
+        fail(f"cashback profile metadata mismatch: {cashback_profiles}")
+    if cashback_offers != cashback_meta.get("offers_extracted"):
+        fail(f"cashback offer metadata mismatch: {cashback_offers}")
 
     print(
         "PASS:",
@@ -103,6 +132,8 @@ def main() -> None:
         f"{evidence_links} evidence links;",
         f"{questions} learning questions;",
         f"{known_fees} official fees;",
+        f"{cashback_profiles} profiles with explicit cashback percentages;",
+        f"{cashback_offers} cashback offer records;",
         "0 ID mismatches; 0 unsupported income values",
     )
 

@@ -81,6 +81,19 @@ Catalogue presence is not the same as complete term verification or confirmation
 
 Never turn an unknown fee into lifetime-free, an unknown lounge benefit into no lounge, or missing eligibility into likely approval.
 
+## Cashback offer evidence
+
+Every profile has a `cashbackOffers` object:
+
+- `status`: `official_percentage_evidence_found` or `no_cashback_percentage_verified`;
+- `highestPercentage`: highest explicit percentage found, or `null`;
+- `offers[]`: percentage, source description, official URL, checked date and evidence status;
+- `meaning`: the user-facing evidence or unknown-state explanation.
+
+An offer may be `official_source_structured` or `official_excerpt_requires_product_association_review`. The latter is visible research evidence, but cannot change recommendation mathematics until reviewed. Reward-point earn rates are never converted into cashback percentages without an official redemption value.
+
+The deterministic extractor is [`scripts/extract_cashback_offers.py`](scripts/extract_cashback_offers.py).
+
 ## Material fact groups for future enrichment
 
 ### Cost

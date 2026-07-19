@@ -29,7 +29,9 @@ python3 qa_test.py
 - deterministic ranking across seven currently allow-listed reward models;
 - official-source discovery catalogue with 267 products across 16 issuers, after reviewing 17 issuer surfaces, in [`catalog-data.js`](catalog-data.js);
 - full normalized research dataset and coverage metadata in [`CARD_CATALOGUE_2026-07-18.json`](CARD_CATALOGUE_2026-07-18.json);
-- 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js);
+- 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js).
+- Cashback percentage evidence on every individual profile: 52 cards currently have 136 explicit percentage-bearing official-source records; the other 215 display “No cashback percentage verified” rather than a fabricated 0%.
+- Cashback records preserve percentage, source description, official URL, checked date and review state. Reward points are not mislabeled as cashback.
 - card-level official-source research attached to 230 profiles, including 53 supported annual fees and 3,296 source-ledger entries;
 - provider-level context and freshness alerts for the remaining American Express, BOBCARD, Federal Bank and OneCard/FPL portfolio in [`PROVIDER_PROFILES_2026-07-18.json`](PROVIDER_PROFILES_2026-07-18.json);
 - raw issuer enrichment snapshots in [`CARD_PROFILES_ENRICHMENT_2026-07-18.json`](CARD_PROFILES_ENRICHMENT_2026-07-18.json) and [`CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json`](CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json);

@@ -12,6 +12,12 @@
       "second_dataset_matches": 103,
       "provider_context_profile_count": 37,
       "review_policy": "Official excerpts and source research are educational until material terms are human-reviewed and normalized into executable rules."
+    },
+    "cashback_offer_coverage": {
+      "profiles_total": 267,
+      "profiles_with_explicit_percentage_evidence": 52,
+      "offers_extracted": 136,
+      "policy": "No explicit official evidence means unverified, not zero percent. Candidate excerpts do not become executable reward rules without human review."
     }
   },
   "profiles": [
@@ -569,6 +575,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -1091,6 +1103,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -1608,6 +1626,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -2144,6 +2168,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -2679,6 +2709,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% Cashback on Amazon, Flipkart, Myntra, Swiggy, Zomato and more",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "5% CashBack on leading brands - Amazon, Flipkart, Myntra, Tata CLiQ, Swiggy, Zomato, Uber, BookMyShow, Sony LIV and Cult.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% CashBack on other spend",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/millennia-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -3219,6 +3277,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -3746,6 +3810,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -4276,6 +4346,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% CashBack on choice of any two following packs:",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 3,
+            "description": "3% CashBack on Amazon, Flipkart or PayZapp",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% CashBack on UPI Spends (Applicable only on PIXEL RuPay Credit Card holders).",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-play-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -4836,6 +4934,41 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% CashBack on eligible transactions via SmartBuy Up to 10% savings off on all your restaurant bill payments via Swiggy Dineout.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "5% Cashback on SmartBuy.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% CashBack on eligible transactions",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% Cashback on UPI spends",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/pixel-go-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -5359,6 +5492,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Cardholder did a transaction in the groceries, and supermarket category and didn’t get CashPoints as per the 3% cashback feature?",
+            "sourceUrl": "https://www.hdfc.bank.in/personal-banking/credit-cards/hdfc-bank-upi-rupay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -5921,6 +6068,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -6479,6 +6632,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -6981,6 +7140,41 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "10% cashback on Swiggy food order",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "5% Cashback on online spends",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% Cashback on all other categories",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "Over and above this, you can also enjoy 1% CashBack on other categories up to ₹500 per billing cycle except on Fuel, Rent, EMI, Wallet, Jewelry and Govt.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -7487,6 +7681,27 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% Cashback across Swiggy and select online spends*.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% CashBack on other spends*",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-ornge-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -7995,6 +8210,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "10% CashBack on spends across Swiggy app transactions.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 10,
+            "description": "10% CashBack* on Swiggy application (Food ordering, Instamart & Dineout ).",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "5% CashBack on select online spends.",
+            "sourceUrl": "https://www.hdfc.bank.in/credit-cards/swiggy-blck-hdfc-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -8461,6 +8704,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -8976,6 +9225,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -9525,6 +9780,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -10053,6 +10314,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -10589,6 +10856,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -11104,6 +11377,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -11586,6 +11865,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -11892,6 +12177,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -12208,6 +12499,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -12524,6 +12821,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -12839,6 +13142,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -13156,6 +13465,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -13472,6 +13787,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -13788,6 +14109,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -14108,6 +14435,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -14432,6 +14765,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -14753,6 +15092,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -15074,6 +15419,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -15395,6 +15746,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -15716,6 +16073,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -16032,6 +16395,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -16352,6 +16721,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -16670,6 +17045,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -16988,6 +17369,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -17309,6 +17696,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -17634,6 +18027,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -17952,6 +18351,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -18270,6 +18675,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -18590,6 +19001,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -18906,6 +19323,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -19448,6 +19871,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -19966,6 +20395,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -20492,6 +20927,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -21056,6 +21497,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -21599,6 +22046,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -22020,6 +22473,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -22571,6 +23030,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -23045,6 +23510,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -23546,6 +24017,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -24021,6 +24498,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -24544,6 +25027,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -25032,6 +25521,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -25527,6 +26022,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -26073,6 +26574,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "You get 5% cashback on spends across these categories.",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 4,
+            "description": "The fuel savings of 5% comprises of 4% cashback + 1% fuel surcharge waiver (The 4% cashback is capped at ₹200 per month).",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1.5,
+            "description": "You also get an additional 1.5% cashback (Happy Coins) on all fuel purchases through the HP Pay app at HPCL outlets.",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-super-saver",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -26591,6 +27120,27 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 2.5,
+        "offers": [
+          {
+            "percentage": 2.5,
+            "description": "2.5% cashback when the card is swiped at any HPCL fuel pump (Capped at ₹100 per month).",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 2.5,
+            "description": "5% comprises of: 2.5% cashback when the card is swiped at any HPCL fuel pump (Capped at ₹100 per month).",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/hpcl-coral-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -27080,6 +27630,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -27569,6 +28125,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -28004,6 +28566,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "The Amazon Pay ICICI Bank card has been a game-changer for my Amazon shopping—no fees (LTF), instant ₹200 cashback upon joining, and up to 5% unlimited cashback on purchases as a Prime member.",
+            "sourceUrl": "https://www.icici.bank.in/personal-banking/cards/credit-card/amazon-pay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -28504,6 +29080,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -28998,6 +29580,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -29526,6 +30114,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -30010,6 +30604,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -30472,6 +31072,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -30758,6 +31364,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -31043,6 +31655,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -31329,6 +31947,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -31791,6 +32415,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -32270,6 +32900,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -32796,6 +33432,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 7.5,
+        "offers": [
+          {
+            "percentage": 7.5,
+            "description": "Earn 7.5% cashback on Myntra spends* capped at INR 4000 per statement quarter",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 7.5,
+            "description": "Earn 7.5% cashback on Myntra spends* capped at ₹4000 per statement quarter",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "Earn 5% cashback on Flipkart and Cleartrip spends* capped at ₹4000 per statement quarter per merchant",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/flipkart-axisbank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -33332,6 +33996,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 100.0,
+        "offers": [
+          {
+            "percentage": 100,
+            "description": "100% cashback up to ₹300 on first utility bill payment within first 30 days of card issuance",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 100,
+            "description": "Activation Benefit:100% Cashback up to ₹300 on first Utility bill payment within first 30 days of card issuance*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-neo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -33857,6 +34549,20 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -34371,6 +35077,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -34855,6 +35567,34 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback* on Utility bill payments (electricity, internet, gas, and more) &DTH and mobile recharges on google pay",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 4,
+            "description": "4% cashback* on swiggy, zomato & ola",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1.5,
+            "description": "1.5% cashback* on all other spends",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-ace-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -35326,6 +36066,20 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/rewards-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -35782,6 +36536,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/google-pay-flex-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -36311,6 +37079,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 25.0,
+        "offers": [
+          {
+            "percentage": 25,
+            "description": "25% cashback* on Airtel Mobile, Broadband, WiFi and DTH bill payments via Airtel Thanks App (Max cap p.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 10,
+            "description": "10% cashback* on utility bill payments such as gas, electricity, etc.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "1% cashback/base cashback on all other spends *Cashback not applicable on excluded MCC categories.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/airtel-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -36772,6 +37568,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -37305,6 +38107,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -37815,6 +38623,62 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 7.0,
+        "offers": [
+          {
+            "percentage": 7,
+            "description": "Enjoy up to 7% cashback on online spends.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 7,
+            "description": "Your monthly net spends are split into below brackets: Earn 2% cashback for spends up to ₹5000,Earn 5% cashback for spends > ₹5,000 & <= ₹40,000 andEarn 7% cashback on spends > ₹40,000Example- For monthly net spends of ₹70,000, 2% cashback will apply on 5,000, 5% cashback on 35,000 and 7% cashback on 30,000",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "Your monthly net spends are split into below brackets: Earn 2% cashback for spends up to ₹5000,Earn 5% cashback for spends > ₹5,000 & <= ₹40,000 andEarn 7% cashback on spends > ₹40,000Example- For monthly net spends of ₹70,000, 2% cashback will apply on 5,000, 5% cashback on 35,000 and 7% cashback on 30,000",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 2,
+            "description": "Your monthly net spends are split into below brackets: Earn 2% cashback for spends up to ₹5000,Earn 5% cashback for spends > ₹5,000 & <= ₹40,000 andEarn 7% cashback on spends > ₹40,000Example- For monthly net spends of ₹70,000, 2% cashback will apply on 5,000, 5% cashback on 35,000 and 7% c",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 2,
+            "description": "Your monthly net spends are split into below brackets: Earn 2% cashback for spends up to ₹5000,Earn 5% cashback for spends > ₹5,000 & <= ₹40,000 andEarn 7% cashback on spends > ₹40,000Example- For monthly net spends of ₹70,000, 2% cashback will apply on 5,000, 5% cashback on 35,000 and 7% cashback on 30,000",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 0.75,
+            "description": "Receive unlimited base cashback of 0.75% on all offline & travel related spends",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 0.5,
+            "description": "Get 0.5% cashback up to ₹100 on utilities bill payments",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/cashback-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -38292,6 +39156,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -38764,6 +39634,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -39268,6 +40152,27 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 25.0,
+        "offers": [
+          {
+            "percentage": 25,
+            "description": "25% cashback on online and box office movie ticket purchases all week with your MY Zone Easy Credit Card*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 25,
+            "description": "Get 25% cashback on movie tickets",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/my-zone-easy-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -39793,6 +40698,20 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/indianoil-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -40299,6 +41218,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -40804,6 +41729,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -41286,6 +42217,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -41603,6 +42540,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -41914,6 +42857,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -42383,6 +43332,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -42867,6 +43822,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -43385,6 +44346,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -43899,6 +44866,27 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "10% cashback on Samsung purchases (including EMI transactions)",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 10,
+            "description": "Cashback Benefits 10% cashback on Samsung purchases (including EMI transactions)Cashback is capped at ₹5,000 per month and ₹20,000 per annumCashback will be directly credited in your credit card statementFor terms & conditions, click here",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-infinite-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -44292,6 +45280,55 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "3% cashback on food delivery, entertainment and local commute",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 3,
+            "description": "It is a numberless credit card issued in partnership with Axis Bank, offering up to 3% cashback with no annual/joining fee.",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 3,
+            "description": "Some of the benefits of the Fibe Axis Bank Credit Card include: No joining or annual fees3% cashback on food delivery, entertainment and local commuteFor other online transactions, 1% flat cashback, except for some excluded categoriesNumberless card for enhanced securityThe RuPay powered credit card to make UPI payment",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 3,
+            "description": "You can receive 3% cashback (up to Rs 1500 per cycle), on all online transactions (except for few ineligible categories), as followsFlat 3% on food delivery, entertainment, and local cabsFlat 1% for other transactions",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "For other online transactions, 1% flat cashback, except for some excluded categories",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "Some of the benefits of the Fibe Axis Bank Credit Card include: No joining or annual fees3% cashback on food delivery, entertainment and local commuteFor other online transactions, 1% flat cashback, except for some excluded categoriesNumberless card for enhanced securityThe RuPay powered credit card to make UPI paymentsFuel Surcharge Waiver",
+            "sourceUrl": "https://www.fibe.in/credit-card/fibe-axis-bank-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -44774,6 +45811,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -45298,6 +46341,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -45814,6 +46863,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "10% cashback on Samsung purchases (including EMI transactions)",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 10,
+            "description": "Cashback Benefits10% cashback on Samsung purchases (including EMI transactions)Cashback is capped at INR 2,500 per month and INR 10,000 per annum Cashback will be directly credited in your credit card statementFor terms & conditions, click",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 10,
+            "description": "Cashback Benefits10% cashback on Samsung purchases (including EMI transactions)Cashback is capped at INR 2,500 per month and INR 10,000 per annum Cashback will be directly credited in your credit card statementFor terms & conditions, click here",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/samsung-axis-bank-signature-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -46276,6 +47353,12 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -46747,6 +47830,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 3.0,
+        "offers": [
+          {
+            "percentage": 3,
+            "description": "Up to 3% cashback on every transaction*",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -47230,6 +48327,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback on Freecharge spending.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "5% cashback on Freecharge spends",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 2,
+            "description": "2% cashback on local commute.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-freecharge-plus-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -47779,6 +48904,20 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 100.0,
+        "offers": [
+          {
+            "percentage": 100,
+            "description": "100% cashback up to ₹ 300 on first utility bill payment within first 30 days of card issuance.",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/lic-axis-bank-signature-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -48284,6 +49423,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -48746,6 +49891,20 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "10% Cashback on Samsung purchases all year around, across products & services",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/axis-bank-kwik-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -49274,6 +50433,34 @@
             "evidence": []
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback* on Utility bill payments & recharges on Google Pay",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 4,
+            "description": "4% cashback on Swiggy, Zomato & Ola;",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1.5,
+            "description": "1.5% cashback on other spends",
+            "sourceUrl": "https://www.axis.bank.in/cards/credit-card/privilege-credit-card-with-unlimited-benefits",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -49721,6 +50908,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -50154,6 +51347,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -50704,6 +51903,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/diamond-reserve-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -51227,6 +52454,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -51791,6 +53046,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wow-black-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -52316,6 +53599,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/indigo-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -52881,6 +54192,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/metal-credit-card/gaj",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -53232,6 +54571,41 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "Hello Cashback Credit Card​Your guaranteed FD backed Card – earn up to 5% Cashback​",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/ntb-diy/hello-cashback-landing",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "Powerful Cashback on Everyday Spends​ • Earn up to 5% Cashback on online spends • 1% Cashback on in-store & UPI payments • 1% Cashback on insurance, education and utility spends",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/ntb-diy/hello-cashback-landing",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 5,
+            "description": "Say Hello to 5% Cashback​",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/ntb-diy/hello-cashback-landing",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "Powerful Cashback on Everyday Spends​ • Earn up to 5% Cashback on online spends • 1% Cashback on in-store & UPI payments • 1% Cashback on insurance, education and utility spends",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/ntb-diy/hello-cashback-landing",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -53775,6 +55149,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/select",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/select",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/select",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -54323,6 +55725,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/classic",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/classic",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/classic",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -54868,6 +56298,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wealth",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wealth",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/wealth",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -55442,6 +56900,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/millennia",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/millennia",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/millennia",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -56012,6 +57498,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/swyp-emi-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -56572,6 +58086,41 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 10.0,
+        "offers": [
+          {
+            "percentage": 10,
+            "description": "Limited Period Offer: ₹0 ₹499+GST Joining Fee + 10% cashback up to ₹250 on 1st transaction Annual Fee: ₹499+GST or ₹0 on annual spends of ₹1 lakh and above",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/secured-rupay-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -57132,6 +58681,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -57692,6 +59269,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/hpcl-power-fuel-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -58234,6 +59839,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -58776,6 +60409,34 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Affordability & Cashback Credit Cards Hello Cashback Cashback UPI-ready FD- Backed​ FIRST EARN Virtual FD-Backed 1% Cashback FIRST SWYP EMI OfferMax ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual 1% Cashback ₹499",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          },
+          {
+            "percentage": 1,
+            "description": "FIRST EARN Virtual FD-Backed 1% Cashback",
+            "sourceUrl": "https://www.idfcfirst.bank.in/credit-card/lic-credit-card",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_excerpt_requires_product_association_review"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -59273,6 +60934,12 @@
             ]
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -59488,6 +61155,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -59699,6 +61372,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -59912,6 +61591,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -60125,6 +61810,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -60344,6 +62035,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -60555,6 +62252,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -60765,6 +62468,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -60976,6 +62685,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -61187,6 +62902,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -61398,6 +63119,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -61609,6 +63336,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -61820,6 +63553,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -62031,6 +63770,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -62242,6 +63987,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -62457,6 +64208,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -62668,6 +64425,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -62879,6 +64642,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -63090,6 +64859,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -63301,6 +65076,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -63512,6 +65293,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -63723,6 +65510,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -63934,6 +65727,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -64148,6 +65947,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -64362,6 +66167,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -64576,6 +66387,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -64809,6 +66626,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -65049,6 +66872,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -65283,6 +67112,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -65516,6 +67351,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -65745,6 +67586,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -65966,6 +67813,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -66204,6 +68057,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -66436,6 +68295,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -66666,6 +68531,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -66904,6 +68775,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -67146,6 +69023,27 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.0,
+        "offers": [
+          {
+            "percentage": 1,
+            "description": "Get 1% cashback on all Retail spends in every statement cycle.",
+            "sourceUrl": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 1,
+            "description": "The IndusInd Bank Samman RuPay Credit Card for the government sector employees offers a comprehensive range of features such as scan & pay via UPI, 1% cashback on all retail spends, movie tickets and much more.",
+            "sourceUrl": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -67388,6 +69286,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -67629,6 +69533,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -67869,6 +69779,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -68108,6 +70024,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -68355,6 +70277,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -68582,6 +70510,20 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback annually on early payment of total outstanding amount",
+            "sourceUrl": "https://www.indusind.bank.in/in/en/personal/cards/credit-card.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -68802,6 +70744,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -69034,6 +70982,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -69270,6 +71224,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -69506,6 +71466,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -69738,6 +71704,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -69983,6 +71955,34 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback on Online food deliveries, groceries and entertainment",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 3,
+            "description": "3% cashback on fuel spends across fuel stations",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 0.5,
+            "description": "0.5% unlimited cashback on other eligible spends",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -70217,6 +72217,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -70454,6 +72460,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -70676,6 +72688,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -70896,6 +72914,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -71112,6 +73136,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -71350,6 +73380,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -71567,6 +73603,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -71793,6 +73835,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -72013,6 +74061,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -72226,6 +74280,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -72480,6 +74540,41 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 5.0,
+        "offers": [
+          {
+            "percentage": 5,
+            "description": "5% cashback on Auto Dealer merchant spends",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 5,
+            "description": "5% cashback on Online food deliveries, groceries and entertainment spends",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 3,
+            "description": "3% cashback on fuel spends across fuel stations",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 0.5,
+            "description": "0.5% unlimited cashback on other eligible spends",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -72738,6 +74833,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -72950,6 +75051,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -73171,6 +75278,20 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 15.0,
+        "offers": [
+          {
+            "percentage": 15,
+            "description": "Get 15% Cashback on Food and Beverages at PVR",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -73387,6 +75508,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -73598,6 +75725,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -73838,6 +75971,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -74068,6 +76207,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -74294,6 +76439,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -74524,6 +76675,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -74740,6 +76897,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -74966,6 +77129,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -75192,6 +77361,27 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 15.0,
+        "offers": [
+          {
+            "percentage": 15,
+            "description": "Get 15% Cashback on Food and Beverages at PVR",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          },
+          {
+            "percentage": 5,
+            "description": "Get 5% Cashback on Movie tickets at PVR Box Office",
+            "sourceUrl": "https://www.kotak.bank.in/en/personal-banking/cards/credit-cards.html",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -75407,6 +77597,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -75622,6 +77818,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -75835,6 +78037,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -76046,6 +78254,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -76257,6 +78471,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -76470,6 +78690,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -76681,6 +78907,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -76892,6 +79124,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -77103,6 +79341,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -77334,6 +79578,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -77559,6 +79809,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -77784,6 +80040,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -78009,6 +80271,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -78240,6 +80508,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -78451,6 +80725,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -78680,6 +80960,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -78933,6 +81219,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -79182,6 +81474,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -79423,6 +81721,20 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "official_percentage_evidence_found",
+        "highestPercentage": 1.5,
+        "offers": [
+          {
+            "percentage": 1.5,
+            "description": "1.5% unlimited cashback on most other spend;",
+            "sourceUrl": "https://www.hsbc.co.in/credit-cards/",
+            "checkedAt": "2026-07-18",
+            "evidenceStatus": "official_source_structured"
+          }
+        ],
+        "meaning": "Percentages are transcribed from reviewed official-source research. Caps, merchants, channels, dates and exclusions in each description still control."
       }
     },
     {
@@ -79664,6 +81976,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -79902,6 +82220,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -80144,6 +82468,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -80395,6 +82725,12 @@
             "status": "official_source"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -80659,6 +82995,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -80921,6 +83263,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -81169,6 +83517,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -81429,6 +83783,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -81660,6 +84020,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -81876,6 +84242,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -82087,6 +84459,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -82301,6 +84679,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -82512,6 +84896,12 @@
             "status": "unknown"
           }
         }
+      },
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
       }
     },
     {
@@ -82649,7 +85039,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "american-express-india"
+      "providerContextId": "american-express-india",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "american-express-india-american-express-membership-rewards-credit-card",
@@ -82786,7 +85182,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "american-express-india"
+      "providerContextId": "american-express-india",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "american-express-india-american-express-platinum-reserve-credit-card",
@@ -82923,7 +85325,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "american-express-india"
+      "providerContextId": "american-express-india",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "american-express-india-american-express-platinum-travel-credit-card",
@@ -83064,7 +85472,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "american-express-india"
+      "providerContextId": "american-express-india",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "american-express-india-american-express-platinum-card",
@@ -83201,7 +85615,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "american-express-india"
+      "providerContextId": "american-express-india",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-indian-army-yoddha",
@@ -83340,7 +85760,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-irctc-credit-card",
@@ -83482,7 +85908,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-hpcl-energie",
@@ -83624,7 +86056,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-uni-goldx",
@@ -83758,7 +86196,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-cashback",
@@ -83897,7 +86341,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-tiara",
@@ -84031,7 +86481,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-easy",
@@ -84167,7 +86623,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-indian-coast-guard-rakshamah",
@@ -84306,7 +86768,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-scapia-credit-card",
@@ -84448,7 +86916,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-premier",
@@ -84582,7 +87056,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-icsi-diamond",
@@ -84721,7 +87201,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-vikram",
@@ -84855,7 +87341,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-cma-one",
@@ -84994,7 +87486,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-one",
@@ -85128,7 +87626,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-etihad-guest",
@@ -85270,7 +87774,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-assam-rifles-the-sentinel",
@@ -85409,7 +87919,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-empower",
@@ -85543,7 +88059,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-select",
@@ -85679,7 +88201,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-snapdeal-bobcard",
@@ -85818,7 +88346,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-nainital-bank-renaissance-bobcard",
@@ -85955,7 +88489,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-eterna",
@@ -86089,7 +88629,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-bupb-bggb-brkgb-pragati",
@@ -86226,7 +88772,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-prime",
@@ -86364,7 +88916,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-etihad-guest-premium",
@@ -86509,7 +89067,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-bobcard-indian-navy-varunah",
@@ -86648,7 +89212,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "bobcard-icai-exclusive-bobcard",
@@ -86787,7 +89357,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "bobcard"
+      "providerContextId": "bobcard",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "federal-bank-federal-bank-celesta-credit-card",
@@ -86924,7 +89500,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "federal-bank"
+      "providerContextId": "federal-bank",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "federal-bank-federal-bank-imperio-credit-card",
@@ -87057,7 +89639,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "federal-bank"
+      "providerContextId": "federal-bank",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "federal-bank-federal-bank-signet-credit-card",
@@ -87192,7 +89780,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "federal-bank"
+      "providerContextId": "federal-bank",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "federal-bank-federal-rupay-wave-credit-card",
@@ -87330,7 +89924,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "federal-bank"
+      "providerContextId": "federal-bank",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "federal-bank-scapia-federal-bank-credit-card",
@@ -87472,7 +90072,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "federal-bank"
+      "providerContextId": "federal-bank",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     },
     {
       "id": "onecard-fpl-technologies-onecard-metal-credit-card",
@@ -87613,7 +90219,13 @@
           "invitationOnly": null
         }
       },
-      "providerContextId": "onecard-fpl"
+      "providerContextId": "onecard-fpl",
+      "cashbackOffers": {
+        "status": "no_cashback_percentage_verified",
+        "highestPercentage": null,
+        "offers": [],
+        "meaning": "No explicit card-level cashback percentage was verified in the reviewed official sources; this does not prove the card has no cashback benefit."
+      }
     }
   ]
 }

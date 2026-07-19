@@ -39,6 +39,7 @@ with sync_playwright() as p:
     assert "16 issuers with cards" in page.locator("#coverageIssuers").text_content()
     assert "17 reviewed" in page.locator("#coverageIssuers").text_content()
     assert "230 card-level enriched" in page.locator("#coverageIssuers").text_content()
+    assert "52 with explicit cashback %" in page.locator("#coverageIssuers").text_content()
     assert page.locator(".catalog-card").count() == 18
     assert page.locator(".profile-btn").count() == 18
     first_catalog_name = page.locator(".catalog-card h3").first.text_content()
@@ -46,7 +47,12 @@ with sync_playwright() as p:
     assert page.locator("#profileModal").evaluate("el => el.classList.contains('open')")
     assert page.locator("#profileTitle").text_content() == first_catalog_name
     assert page.locator("#profileContent .fact").count() == 6
-    assert page.locator("#profileContent .profile-section").count() >= 6
+    assert page.locator("#profileContent .profile-section").count() >= 7
+    assert page.locator("#profileContent").get_by_text("Cashback offers & percentages", exact=True).is_visible()
+    assert page.locator("#profileContent .cashback-offer").count() >= 1
+    assert "5%" in page.locator("#profileContent .cashback-rate").all_text_contents()
+    assert page.locator("#profileContent .cashback-offer a[href^='https://']").count() >= 1
+    assert page.locator("#profileContent").get_by_text("Reward points are not converted into cashback percentages", exact=False).is_visible()
     assert page.locator("#profileContent .research-fact").count() >= 1
     assert page.locator("#profileContent .evidence-link").count() >= 2
     assert page.locator("body").evaluate("el => el.style.overflow") == "hidden"
@@ -56,6 +62,9 @@ with sync_playwright() as p:
     assert page.locator("#profileContent .evidence-link").last.is_visible()
     page.locator("#profileModal .modal-panel").evaluate("el => el.scrollTop = 0")
     page.screenshot(path=str(OUT / "mobile-profile.png"), full_page=False)
+    page.locator("#profileContent").get_by_text("Cashback offers & percentages", exact=True).scroll_into_view_if_needed()
+    page.screenshot(path=str(OUT / "mobile-cashback-profile.png"), full_page=False)
+    page.locator("#profileModal .modal-panel").evaluate("el => el.scrollTop = 0")
     page.locator("#closeProfile").click()
     assert page.locator("body").evaluate("el => el.style.overflow") == ""
     assert not page.locator("#profileModal").evaluate("el => el.classList.contains('open')")
@@ -64,6 +73,8 @@ with sync_playwright() as p:
     page.locator(".profile-btn").first.click()
     assert page.locator("#profileContent").get_by_text("BOBCARD provider context", exact=True).is_visible()
     assert page.locator("#profileContent .freshness-alert").count() == 1
+    assert page.locator("#profileContent .cashback-offer").count() == 0
+    assert page.locator("#profileContent").get_by_text("No cashback percentage verified", exact=True).is_visible()
     page.locator("#closeProfile").click()
     page.locator("#issuerFilter").select_option(label="HDFC Bank")
     assert "22 matching cards" in page.locator("#catalogCount").text_content()
