@@ -26,11 +26,12 @@ python3 qa_test.py
 
 ## What works
 
-- one-minute spend/profile questionnaire;
+- detailed two-minute form with seven monthly spending categories, reward goal, income band, credit profile, card journey, fee comfort, lounge, international-use, UPI and network preferences;
 - deterministic ranking across seven currently allow-listed reward models;
 - evidence-aware product-fit recommendations across all 267 catalogue cards, with visible scores, reasons and evidence-confidence labels;
 - questionnaire inputs update both the seven detailed-math rankings and the market-wide catalogue ranking;
-- product-fit scoring uses category alignment, known fee comfort, secured/starter signals, lounge preference and evidence coverage; it is explicitly not an approval prediction;
+- detailed annual-value models use the entered category amounts instead of an assumed category split;
+- market-wide product-fit scoring uses dominant spending, stated goal, known fee comfort, secured/starter signals, lounge, UPI, international-use and network preferences plus evidence coverage; it is explicitly not an approval prediction;
 - official-source discovery catalogue with 267 products across 16 issuers, after reviewing 17 issuer surfaces, in [`catalog-data.js`](catalog-data.js);
 - full normalized research dataset and coverage metadata in [`CARD_CATALOGUE_2026-07-18.json`](CARD_CATALOGUE_2026-07-18.json);
 - 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js).

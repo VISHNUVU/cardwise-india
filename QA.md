@@ -10,6 +10,8 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - Desktop visual inspection: no clipping or overflow; clear Configure + Compare composition.
 - Playwright mobile viewport: 390 × 844.
 - Seven current allow-listed recommendation cards rendered.
+- Detailed form exposes seven category-level spending fields plus goal, income, credit profile, card journey, fee, lounge, international-use, UPI and network controls.
+- A ₹40,000 travel-only profile with travel rewards, lounge, international use and Visa preferences produces ATLAS Credit Card as the first detailed-math recommendation and passes the same profile into the 267-card product-fit ranking.
 - All 267 catalogue cards produce deterministic product-fit scores in the bounded range 10–95, with at least two visible reasons and one of three evidence-confidence labels.
 - The questionnaire re-sorts the market-wide catalogue as well as the seven detailed-math cards; a new-to-credit, zero-fee profile surfaces FD-backed/starter reasoning.
 - Catalogue and profile disclosures state that product fit is not approval odds and that unknown terms do not count as benefits.

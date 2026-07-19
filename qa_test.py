@@ -42,6 +42,27 @@ with sync_playwright() as p:
     assert all(len(item["reasons"]) >= 2 for item in broad_scores)
     assert {item["confidence"] for item in broad_scores} <= {"Detailed maths", "More evidence", "Limited evidence"}
 
+    # Detailed form drives category-level economics and broader product fit.
+    assert page.locator(".spend-input").count() == 7
+    for field in ["onlineSpend", "grocerySpend", "diningSpend", "fuelSpend", "utilitySpend", "generalSpend"]:
+        page.locator(f"#{field}").fill("0")
+    page.locator("#travelSpend").fill("40000")
+    page.get_by_label("Travel rewards", exact=True).check()
+    page.get_by_label("Good (750+)", exact=True).check()
+    page.locator("#fee").select_option("10000")
+    page.get_by_label("Useful", exact=True).check()
+    page.locator("#forexSpend").select_option("high")
+    page.locator("#networkPreference").select_option("Visa")
+    page.get_by_label("Add another card", exact=True).check()
+    page.get_by_role("button", name="Recommend cards").click()
+    detailed_profile = page.evaluate("window.cardwiseCurrentProfile")
+    assert detailed_profile["spend"] == 40000
+    assert detailed_profile["spending"]["travel"] == 40000
+    assert detailed_profile["goal"] == "travel"
+    assert page.locator(".credit-card h3").first.text_content() == "ATLAS Credit Card"
+    assert "travel rewards" in page.locator("#summary").text_content().lower()
+    assert "travel" in page.locator(".catalog-card .catalog-reasons").first.text_content().lower()
+
     page.locator(".compare-btn").nth(0).click()
     page.locator(".compare-btn").nth(1).click()
     assert page.locator("#tray").evaluate("el => el.classList.contains('show')")
