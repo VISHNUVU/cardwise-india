@@ -42,7 +42,7 @@ def main() -> None:
     required_profile_keys = {
         "identity", "overview", "knownFacts", "learningGuide",
         "missingMaterialFacts", "contractualTerms", "evidence", "profileCompleteness",
-        "cashbackOffers"
+        "cashbackOffers", "decisionDetails"
     }
 
     evidence_links = 0
@@ -107,6 +107,25 @@ def main() -> None:
                 fail(f"{pid}: cashback percentage lacks HTTPS official source")
             if not offer.get("description"):
                 fail(f"{pid}: cashback percentage lacks a source description")
+            condition_keys = {
+                "merchantOrCategory", "channels", "minimumSpendText", "capText",
+                "exclusionsText", "offerType", "validityText",
+            }
+            if condition_keys - set(offer):
+                fail(f"{pid}: cashback offer lacks structured condition fields")
+            if not isinstance(offer["merchantOrCategory"], list) or not isinstance(offer["channels"], list):
+                fail(f"{pid}: cashback category/channel fields must be lists")
+        details = profile["decisionDetails"]
+        if set(details) != {"feesAndWaiver", "rewardEconomics", "annualValue"}:
+            fail(f"{pid}: decision detail groups differ from schema")
+        annual_fee_detail = details["feesAndWaiver"]["annualFeeInr"]
+        if annual_fee_detail["value"] != profile_fee:
+            fail(f"{pid}: decision-detail annual fee is inconsistent")
+        equivalent = details["rewardEconomics"]["calculatedEquivalentPercent"]
+        if equivalent["value"] is not None:
+            fail(f"{pid}: unsupported reward-equivalent percentage populated")
+        if details["annualValue"]["yearOne"]["value"] is not None:
+            fail(f"{pid}: unsupported year-one value populated")
         questions += len(profile["learningGuide"]["questionsBeforeApplying"])
         known_fees += profile_fee is not None
 

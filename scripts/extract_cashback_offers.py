@@ -19,6 +19,25 @@ PERCENT_AFTER = re.compile(
     r"cashback[^\d%]{0,24}?(\d{1,3}(?:\.\d+)?)\s*%", re.I
 )
 ANY_PERCENT = re.compile(r"(?<!\d)(\d{1,3}(?:\.\d+)?)\s*%", re.I)
+MODELED_CARDS = {
+    "CASHBACK SBI Card",
+    "Amazon Pay ICICI Bank Credit Card",
+    "HSBC Live+ Credit Card",
+    "Axis Bank Atlas Credit Card",
+    "Regalia Gold Credit Card",
+    "Tata Neu Plus HDFC Bank Credit Card",
+    "FIRST WOW! Credit Card",
+}
+
+CATEGORY_KEYWORDS = {
+    "amazon": "Amazon", "flipkart": "Flipkart", "myntra": "Myntra",
+    "swiggy": "Swiggy", "zomato": "Zomato", "grocery": "Groceries",
+    "groceries": "Groceries", "dining": "Dining", "food delivery": "Food delivery",
+    "fuel": "Fuel", "utility": "Utilities", "utilities": "Utilities",
+    "upi": "UPI", "travel": "Travel", "movie": "Movies", "pvr": "PVR",
+    "samsung": "Samsung", "airtel": "Airtel", "hpcl": "HPCL",
+    "online": "Online spending", "offline": "Offline spending",
+}
 
 
 def clean(value: str) -> str:
@@ -51,6 +70,94 @@ def source_fallback(profile) -> str:
         if evidence.get("url", "").startswith("https://"):
             return evidence["url"]
     return ""
+
+
+def condition_fields(description: str):
+    lower = description.lower()
+    categories = []
+    for needle, label in CATEGORY_KEYWORDS.items():
+        if needle in lower and label not in categories:
+            categories.append(label)
+    channels = []
+    if "online" in lower:
+        channels.append("online")
+    if "offline" in lower or "pos" in lower or "swiped" in lower:
+        channels.append("offline_or_pos")
+    if "upi" in lower:
+        channels.append("upi")
+    if " app" in lower or "application" in lower:
+        channels.append("issuer_or_partner_app")
+    cap_text = description if re.search(r"\b(cap|capped|maximum|max\.?\s|up to\s+(?:₹|inr))", lower) else None
+    minimum_text = description if re.search(r"\b(minimum|min\.?\s+transaction|spends?\s*(?:>|above|of))", lower) else None
+    exclusions_text = description if re.search(r"\b(except|exclude|excluded|not applicable|ineligible)", lower) else None
+    if re.search(r"\b(first|joining|activation|welcome)\b", lower):
+        offer_type = "welcome_or_activation_offer"
+    elif re.search(r"\b(valid (?:till|until)|offer period|limited time|campaign)\b", lower):
+        offer_type = "time_limited_or_undated_promotion"
+    else:
+        offer_type = "ongoing_card_benefit"
+    validity_match = re.search(
+        r"(?:within\s+(?:the\s+)?first\s+\d+\s+days?|valid\s+(?:till|until)\s+[^,.;]+)",
+        description,
+        re.I,
+    )
+    return {
+        "merchantOrCategory": categories,
+        "channels": channels,
+        "capText": cap_text,
+        "minimumSpendText": minimum_text,
+        "exclusionsText": exclusions_text,
+        "offerType": offer_type,
+        "validityText": validity_match.group(0) if validity_match else None,
+    }
+
+
+def supported(value, status="supported_on_official_source"):
+    return {"value": value, "status": status if value is not None else "not_verified"}
+
+
+def decision_details(profile):
+    terms = profile["contractualTerms"]
+    cost = terms["cost"]
+    annual_fee = cost.get("annualFeeInr")
+    if annual_fee is None:
+        annual_fee = profile["knownFacts"]["annualFeeInr"].get("value")
+    cashback = profile["cashbackOffers"]
+    has_reward_research = bool(profile.get("officialResearch", {}).get("groups", {}).get("reward_rates") or terms["rewards"].get("baseEarnRule"))
+    if cashback["offers"]:
+        conversion_status = "direct_cashback_no_conversion_needed"
+    elif has_reward_research or "Rewards" in profile.get("discoveryCategories", []):
+        conversion_status = "not_calculated_missing_official_redemption_value"
+    else:
+        conversion_status = "not_available"
+    modeled = profile["identity"]["name"] in MODELED_CARDS
+    return {
+        "feesAndWaiver": {
+            "joiningFeeInr": supported(cost.get("joiningFeeInr")),
+            "annualFeeInr": supported(annual_fee),
+            "renewalFeeWaiver": supported(cost.get("renewalFeeWaiver")),
+            "gstIncluded": supported(None),
+        },
+        "rewardEconomics": {
+            "directCashbackAvailable": bool(cashback["offers"]),
+            "rewardPointsPerSpendUnit": supported(None),
+            "officialPointValueInr": supported(None),
+            "calculatedEquivalentPercent": supported(None),
+            "conversionStatus": conversion_status,
+        },
+        "annualValue": {
+            "yearOne": {
+                "value": None,
+                "status": "not_separately_modeled",
+                "reason": "Welcome-benefit cash value is not normalized; it is not invented.",
+            },
+            "ongoing": {
+                "value": None,
+                "status": "personalized_browser_model_available" if modeled else "not_modeled",
+                "reason": "Calculated from the user's browser spending inputs." if modeled else "Reward economics are not normalized for personalized calculation.",
+            },
+        },
+    }
 
 
 def research_texts(profile):
@@ -109,7 +216,7 @@ def extract_profile(profile):
             excerpt = text if cashback_path and len(text) <= 520 else excerpt_around(text, match.start(), match.end())
             if "cashback" not in excerpt.lower() and not cashback_path:
                 continue
-            offers.append({
+            offer = {
                 "percentage": int(percentage) if percentage.is_integer() else percentage,
                 "description": excerpt,
                 "sourceUrl": source_url,
@@ -119,7 +226,9 @@ def extract_profile(profile):
                     if source_status == "official_source"
                     else "official_excerpt_requires_product_association_review"
                 ),
-            })
+            }
+            offer.update(condition_fields(excerpt))
+            offers.append(offer)
 
     unique = []
     seen = set()
@@ -149,6 +258,7 @@ def main():
     profiles = document["profiles"]
     for profile in profiles:
         profile["cashbackOffers"] = extract_profile(profile)
+        profile["decisionDetails"] = decision_details(profile)
 
     with_offers = [p for p in profiles if p["cashbackOffers"]["offers"]]
     offer_count = sum(len(p["cashbackOffers"]["offers"]) for p in profiles)

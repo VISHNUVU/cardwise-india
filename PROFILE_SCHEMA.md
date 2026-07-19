@@ -88,11 +88,22 @@ Every profile has a `cashbackOffers` object:
 - `status`: `official_percentage_evidence_found` or `no_cashback_percentage_verified`;
 - `highestPercentage`: highest explicit percentage found, or `null`;
 - `offers[]`: percentage, source description, official URL, checked date and evidence status;
+- each offer also carries conservative condition fields: `merchantOrCategory[]`, `channels[]`, `minimumSpendText`, `capText`, `exclusionsText`, `offerType`, and `validityText`;
 - `meaning`: the user-facing evidence or unknown-state explanation.
 
 An offer may be `official_source_structured` or `official_excerpt_requires_product_association_review`. The latter is visible research evidence, but cannot change recommendation mathematics until reviewed. Reward-point earn rates are never converted into cashback percentages without an official redemption value.
 
 The deterministic extractor is [`scripts/extract_cashback_offers.py`](scripts/extract_cashback_offers.py).
+
+## Decision detail contract
+
+Every profile also has an unknown-safe `decisionDetails` object:
+
+- `feesAndWaiver`: joining fee, annual fee, renewal-waiver rule and GST treatment;
+- `rewardEconomics`: direct-cashback availability, points-per-spend-unit, official point value, calculated equivalent percentage and conversion status;
+- `annualValue`: distinct Year-1 and ongoing states.
+
+Each material scalar uses `{ "value": ..., "status": ... }`. The current snapshot intentionally leaves calculated reward equivalents `null` because complete official earn, redemption-value and route evidence has not been normalized. Year-1 value is also `null` until welcome-benefit cash value is supported. Seven allow-listed browser models can show a personalized ongoing estimate; this does not populate unsupported profile facts.
 
 ## Material fact groups for future enrichment
 

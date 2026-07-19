@@ -13,11 +13,12 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - No horizontal page overflow.
 - New-to-credit plus zero-fee preference changed the first-ranked result from CASHBACK SBI Card to FIRST WOW! (secured).
 - Two cards could be added to comparison.
-- Comparison modal opened and rendered nine comparison rows.
+- Comparison modal opened and rendered ten comparison rows, including a separate Year-one value row.
 - Direct issuer verification links are present on every result card and inside comparison.
 - Catalogue data integrity: 267 official-source rows, 16 issuers with verified rows, 17 issuer surfaces reviewed, zero duplicate IDs and zero missing required fields.
 - Catalogue initially renders 18 cards and expands to 36 with “Show more”.
-- Issuer, text-search, RuPay network and UPI filters were exercised successfully.
+- Issuer, text-search, RuPay network, UPI, explicit-cashback-only and minimum-10%-cashback filters were exercised successfully.
+- Explicit-cashback filtering returns 52 profiles; the minimum-10% filter returns 12. Highest-verified-cashback sorting places a 100% evidence record first without implying that it is uncapped or permanent.
 - HDFC issuer filtering returned the expected 22 products.
 - Catalogue official-fee-only filtering returned the six fees present in the original catalogue snapshot; the deeper profile layer separately contains 53 source-supported annual fees.
 - Profile coverage: 267 profiles resolve to 267 catalogue IDs with zero missing profiles.
@@ -25,11 +26,12 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - Source ledger: 3,296 HTTPS evidence entries and 53 source-supported annual fees.
 - Enriched profile UI renders official-term findings with an explicit human-review warning; provider-context profiles preserve the distinction between portfolio information and card contracts.
 - Every one of the 267 profiles renders a cashback section. Validation finds 52 profiles with 136 explicit percentage-bearing official-source records; profiles without evidence render “No cashback percentage verified.”
-- Every cashback record has a percentage in `(0, 100]`, an HTTPS official source, a source description and an allowed evidence-review state. Reward points are not relabeled as cashback.
+- Every cashback record has a percentage in `(0, 100]`, structured condition fields, an HTTPS official source, a source description and an allowed evidence-review state. Reward points are not relabeled as cashback.
 - Mobile QA verifies a known 5% profile, an unknown-state BOBCARD profile, official-source links, the non-conversion disclosure and one-column cashback cards.
 - BOBCARD provider profiles surface the urgent re-verification state triggered by the July 2026 change notice.
 - Every initially rendered catalogue card exposes a Learn action.
-- Mobile profile modal opens with the matching card title, six known-fact tiles, a dedicated cashback section, at least seven learning/research/evidence sections and at least two official evidence links.
+- Mobile profile modal opens with the matching card title, six known-fact tiles, cashback conditions, Fees & waiver, Reward economics, Year-one vs ongoing value, and at least two official evidence links.
+- Opening a Learn profile writes a canonical `#card=<id>` URL, reloading that URL reopens the profile, Copy link remains visible, and closing the profile clears the hash.
 - Profile close restores the catalogue and clears the modal state; the header/close control remains sticky while profile content scrolls.
 - Comparison selection can be cleared from the fixed tray before browsing the catalogue.
 

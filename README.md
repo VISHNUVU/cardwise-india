@@ -20,6 +20,7 @@ No build step or package install is required.
 
 ```bash
 python3 validate_profiles.py
+python3 tests/test_decision_details.py -v
 python3 qa_test.py
 ```
 
@@ -31,17 +32,19 @@ python3 qa_test.py
 - full normalized research dataset and coverage metadata in [`CARD_CATALOGUE_2026-07-18.json`](CARD_CATALOGUE_2026-07-18.json);
 - 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js).
 - Cashback percentage evidence on every individual profile: 52 cards currently have 136 explicit percentage-bearing official-source records; the other 215 display “No cashback percentage verified” rather than a fabricated 0%.
-- Cashback records preserve percentage, source description, official URL, checked date and review state. Reward points are not mislabeled as cashback.
+- Cashback records preserve percentage, merchant/category clues, channel, cap/spend/exclusion flags, offer type, validity text, source description, official URL, checked date and review state. Reward points are not mislabeled as cashback.
 - card-level official-source research attached to 230 profiles, including 53 supported annual fees and 3,296 source-ledger entries;
 - provider-level context and freshness alerts for the remaining American Express, BOBCARD, Federal Bank and OneCard/FPL portfolio in [`PROVIDER_PROFILES_2026-07-18.json`](PROVIDER_PROFILES_2026-07-18.json);
 - raw issuer enrichment snapshots in [`CARD_PROFILES_ENRICHMENT_2026-07-18.json`](CARD_PROFILES_ENRICHMENT_2026-07-18.json) and [`CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json`](CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json);
-- per-card Learn modal covering known facts, unknowns, fit questions, borrowing warning, evidence and profile completeness;
+- per-card Learn modal covering known facts, structured offer conditions, fees/waivers, reward-conversion status, year-one versus ongoing value, unknowns, fit questions, borrowing warning, evidence and profile completeness;
 - profile contract and field-provenance policy in [`PROFILE_SCHEMA.md`](PROFILE_SCHEMA.md);
 - implementation-ready profile information architecture in [`PROFILE_PAGE_IA.md`](PROFILE_PAGE_IA.md);
 - progressive India-specific filtering specification in [`FILTER_DESIGN.md`](FILTER_DESIGN.md);
 - catalogue/reward-model separation audit in [`IMPLEMENTATION_AUDIT.md`](IMPLEMENTATION_AUDIT.md);
-- search plus issuer, network, use-case, fee, lounge, UPI, forex, secured, co-brand, detailed-model and official-fee filters;
-- estimated yearly rewards, effective fee and net value;
+- search plus issuer, network, use-case, fee, minimum recorded cashback offer, cashback-record-available, lounge, UPI, forex, secured, co-brand, detailed-model and official-fee filters;
+- highest-recorded-cashback-offer sorting and condition-aware cashback labels;
+- shareable `#card=<canonical-id>` profile links with a Copy link control;
+- estimated ongoing yearly rewards, effective fee and net value, while year-one value remains explicitly unmodeled until welcome-benefit value is normalized;
 - separate eligibility compatibility signal inside the score;
 - explanations for each rank;
 - sorting by match, yearly value or fee;
