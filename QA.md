@@ -2,7 +2,7 @@
 
 ## Automated checks
 
-Executed against `http://127.0.0.1:4173` on 18 July 2026.
+Executed against `http://127.0.0.1:4173` on 20 July 2026.
 
 - HTML parsed successfully with Python `html.parser`.
 - Local HTTP response succeeded.
@@ -10,13 +10,21 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - Desktop visual inspection: no clipping or overflow; clear Configure + Compare composition.
 - Playwright mobile viewport: 390 × 844.
 - Seven current allow-listed recommendation cards rendered.
-- Detailed form exposes seven category-level spending fields plus goal, income, credit profile, card journey, fee, lounge, international-use, UPI and network controls.
-- A ₹40,000 travel-only profile with travel rewards, lounge, international use and Visa preferences produces ATLAS Credit Card as the first detailed-math recommendation and passes the same profile into the 267-card product-fit ranking.
+- Detailed form exposes 29 decision inputs: twelve spending fields, nine core fields and eight optional controls. Twenty-eight can influence ranking/safety; income is separate eligibility context.
+- A ₹40,000 travel-only profile with travel rewards, optimizer complexity, travel redemption, international use and Visa preferences produces ATLAS Credit Card as the first detailed-math recommendation and passes the same profile into the 267-card product-fit ranking.
+- Tata merchant-ecosystem preference increases the supported Tata Neu Plus product-fit score and emits an ecosystem-specific reason.
+- Changing monthly income leaves both detailed economic order and catalogue product-affinity scores unchanged.
+- The seven detailed models contain no hard-coded income threshold or credit-band eligibility fields.
+- Exhaustive 267-card isolation checks require credit-history/card-stage changes to affect only supported FD-backed cards, and only positively.
+- An all-zero spending profile emits an explicit “category affinity is not scored” limitation and never claims a largest-category or strong-everyday interaction.
+- `May carry a balance` reveals the borrowing-cost safety warning, labels detailed cards “Not ranked for borrowing cost,” and disables personalized reward ordering in the market catalogue.
+- The same safety route suppresses reward rows in comparison and reward scores, tags, cashback sections, reward economics and annual-value estimates in Learn profiles.
 - All 267 catalogue cards produce deterministic product-fit scores in the bounded range 10–95, with at least two visible reasons and one of three evidence-confidence labels.
-- The questionnaire re-sorts the market-wide catalogue as well as the seven detailed-math cards; a new-to-credit, zero-fee profile surfaces FD-backed/starter reasoning.
+- Default-profile score-distribution QA requires at least eight distinct scores and fewer than ten cards at the 95-point ceiling; the focused audit observed 37 distinct scores across a 14–69 default-profile range.
+- The questionnaire re-sorts the market-wide catalogue as well as the seven detailed-math cards; new-to-credit and first-card context changes only cards with supported FD-backed facts, always positively.
 - Catalogue and profile disclosures state that product fit is not approval odds and that unknown terms do not count as benefits.
 - No horizontal page overflow.
-- New-to-credit plus zero-fee preference changed the first-ranked result from CASHBACK SBI Card to FIRST WOW! (secured).
+- New-to-credit plus zero-fee preference leaves the seven-card economic order unchanged while surfacing an FD-backed card and rationale in market-wide discovery.
 - Two cards could be added to comparison.
 - Comparison modal opened and rendered ten comparison rows, including a separate Year-one value row.
 - Direct issuer verification links are present on every result card and inside comparison.
@@ -25,7 +33,7 @@ Executed against `http://127.0.0.1:4173` on 18 July 2026.
 - Issuer, text-search, RuPay network, UPI, explicit-cashback-only and minimum-10%-cashback filters were exercised successfully.
 - Explicit-cashback filtering returns 52 profiles; the minimum-10% filter returns 12. Highest-verified-cashback sorting places a 100% evidence record first without implying that it is uncapped or permanent.
 - HDFC issuer filtering returned the expected 22 products.
-- Catalogue official-fee-only filtering returned the six fees present in the original catalogue snapshot; the deeper profile layer separately contains 53 source-supported annual fees.
+- Catalogue official-fee-only filtering now uses the deeper profile evidence and returns 53 source-supported annual fees rather than only the six fees present in the original catalogue snapshot.
 - Profile coverage: 267 profiles resolve to 267 catalogue IDs with zero missing profiles.
 - Official-source enrichment: 230 canonical card profiles plus 37 provider-context profiles.
 - Source ledger: 3,296 HTTPS evidence entries and 53 source-supported annual fees.

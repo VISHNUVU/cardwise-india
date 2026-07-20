@@ -26,12 +26,13 @@ python3 qa_test.py
 
 ## What works
 
-- detailed two-minute form with seven monthly spending categories, reward goal, income band, credit profile, card journey, fee comfort, lounge, international-use, UPI and network preferences;
+- progressive form with 29 decision inputs: 28 ranking/safety signals plus monthly income kept as separate eligibility context;
 - deterministic ranking across seven currently allow-listed reward models;
 - evidence-aware product-fit recommendations across all 267 catalogue cards, with visible scores, reasons and evidence-confidence labels;
 - questionnaire inputs update both the seven detailed-math rankings and the market-wide catalogue ranking;
 - detailed annual-value models use the entered category amounts instead of an assumed category split;
-- market-wide product-fit scoring uses dominant spending, stated goal, known fee comfort, secured/starter signals, lounge, UPI, international-use and network preferences plus evidence coverage; it is explicitly not an approval prediction;
+- market-wide product-fit scoring matches those inputs against up to 14 card dimensions, including supported fees, structured ongoing cashback, caps, secured/FD-backed status, lounge, UPI, forex, network, reward complexity, redemption and merchant ecosystems; editorial tags create affinity only, and it is explicitly not an approval prediction;
+- repayment safety branch warns users who may carry a balance and explicitly withholds borrowing-cost ranks because APR data is not normalized;
 - official-source discovery catalogue with 267 products across 16 issuers, after reviewing 17 issuer surfaces, in [`catalog-data.js`](catalog-data.js);
 - full normalized research dataset and coverage metadata in [`CARD_CATALOGUE_2026-07-18.json`](CARD_CATALOGUE_2026-07-18.json);
 - 267 evidence-aware learning profiles in [`CARD_PROFILES_2026-07-18.json`](CARD_PROFILES_2026-07-18.json) and [`card-profile-data.js`](card-profile-data.js).
@@ -40,7 +41,7 @@ python3 qa_test.py
 - card-level official-source research attached to 230 profiles, including 53 supported annual fees and 3,296 source-ledger entries;
 - provider-level context and freshness alerts for the remaining American Express, BOBCARD, Federal Bank and OneCard/FPL portfolio in [`PROVIDER_PROFILES_2026-07-18.json`](PROVIDER_PROFILES_2026-07-18.json);
 - raw issuer enrichment snapshots in [`CARD_PROFILES_ENRICHMENT_2026-07-18.json`](CARD_PROFILES_ENRICHMENT_2026-07-18.json) and [`CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json`](CARD_ENRICHMENT_TARGET_ISSUERS_2026-07-18.json);
-- per-card Learn modal covering known facts, structured offer conditions, fees/waivers, reward-conversion status, year-one versus ongoing value, unknowns, fit questions, borrowing warning, evidence and profile completeness;
+- per-card Learn modal covering known facts, structured offer conditions, fees/waivers, reward-conversion status, year-one versus ongoing value, unknowns, fit questions, evidence and profile completeness when rewards optimization is appropriate; carrying-balance profiles instead receive a safety-only view with reward scores and economics suppressed;
 - profile contract and field-provenance policy in [`PROFILE_SCHEMA.md`](PROFILE_SCHEMA.md);
 - implementation-ready profile information architecture in [`PROFILE_PAGE_IA.md`](PROFILE_PAGE_IA.md);
 - progressive India-specific filtering specification in [`FILTER_DESIGN.md`](FILTER_DESIGN.md);
@@ -50,7 +51,7 @@ python3 qa_test.py
 - best-product-fit sorting across the full catalogue;
 - shareable `#card=<canonical-id>` profile links with a Copy link control;
 - estimated ongoing yearly rewards, effective fee and net value, while year-one value remains explicitly unmodeled until welcome-benefit value is normalized;
-- separate eligibility compatibility signal inside the score;
+- income, credit compatibility and issuer underwriting kept outside the economic score; first-card context affects only positive, evidence-backed catalogue discovery;
 - explanations for each rank;
 - sorting by match, yearly value or fee;
 - add up to three cards and compare side by side;
@@ -59,6 +60,7 @@ python3 qa_test.py
 - full research hub in [`RESEARCH.md`](RESEARCH.md);
 - 11-product competitive review in [`COMPETITIVE_RESEARCH.md`](COMPETITIVE_RESEARCH.md);
 - recommendation, UX and 14 acceptance tests in [`METHODOLOGY.md`](METHODOLOGY.md);
+- signal-count convention, weights, evidence audit and safeguards in [`RANKING_SIGNALS.md`](RANKING_SIGNALS.md);
 - source-backed ingestion and governance design in [`DATA_ARCHITECTURE.md`](DATA_ARCHITECTURE.md);
 - production-oriented PostgreSQL model in [`schema.sql`](schema.sql);
 - reproducible browser/mobile test in [`qa_test.py`](qa_test.py) and results in [`QA.md`](QA.md).
